@@ -12,7 +12,7 @@ create or replace procedure ConfirmButton(
     p_id_category_film int
 ) as
 begin
-    IF NOT EXISTS (SELECT 1 FROM Film WHERE id_film = p_id_film) THEN
+    IF NOT EXISTS (SELECT 1 FROM Film WHERE FILM_NAME = p_film_name) THEN
         INSERT INTO Film (id_film, film_name, director, release_year, duration, description)
         VALUES (p_id_film, p_film_name, p_director, p_release_year, p_duration, p_description);
     ELSE
@@ -26,7 +26,7 @@ begin
     END IF;
 
     IF NOT EXISTS (SELECT 1 FROM Actor WHERE first_name = p_first_name AND last_name = p_last_name) THEN
-        INSERT INTO Actor (first_name, last_name) VALUES (p_first_name, p_last_name);
+        INSERT INTO Actor (first_name, last_name, NATIONALITY) VALUES (p_first_name, p_last_name, NATIONALITY);
     END IF;
 
     IF NOT EXISTS (SELECT 1 FROM Film_Category WHERE name = p_category_name) THEN

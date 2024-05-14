@@ -1,6 +1,6 @@
 package org.example.ORM.DAO;
 
-import org.example.ORM.Database;
+
 import org.example.ORM.DTO.Film;
 
 import java.sql.*;
@@ -13,7 +13,7 @@ public class FilmDAO {
 
             pstmt.setString(1, film.getFilm_name());
             pstmt.setString(2, film.getDirector());
-            pstmt.setInt(3,  film.getRelease_year());
+            pstmt.setInt(3, film.getRelease_year());
             pstmt.setInt(4, film.getDuration());
             pstmt.setString(5, film.getDescription());
 
@@ -35,22 +35,31 @@ public class FilmDAO {
         return -1;
     }
 
+    public int updateFilm(Film film, Connection connection) {
+        String SQL_Select = "SELECT * FROM film WHERE ID_FILM = ?";
+        String SQL_Update = "UPDATE film SET film_name = ?, director = ?, release_year = ?, duration = ?, description = ? WHERE ID_FILM = ?";
 
-    public void updateFilm(Film film) {
-        String SQL = "UPDATE film SET film_name = ?, director = ?, release_year = ?, duration = ?, description = ? WHERE ID_FILM = ?";
+        try (PreparedStatement pstmt = connection.prepareStatement(SQL_Select)) {
 
-        try (Connection conn = Database.getConnection();
-             PreparedStatement pstmt = conn.prepareStatement(SQL)) {
 
             pstmt.setString(1, film.getFilm_name());
-            pstmt.setString(2, film.getDirector());
-            pstmt.setInt(3,  film.getRelease_year());
-            pstmt.setInt(4, film.getDuration());
-            pstmt.setString(5, film.getDescription());
-            pstmt.setInt(6, film.getIdFilm());
-            pstmt.executeUpdate();
+            ResultSet rs = pstmt.executeQuery();
+            if (rs.next()) {
+                try (PreparedStatement pstmtUpdate = connection.prepareStatement(SQL_Update)) {
+                    pstmtUpdate.setString(2, film.getDirector());
+                    pstmtUpdate.setInt(3, film.getRelease_year());
+                    pstmtUpdate.setInt(4, film.getDuration());
+                    pstmtUpdate.setString(5, film.getDescription());
+                    pstmtUpdate.setInt(6, film.getIdFilm());
+                    pstmtUpdate.executeUpdate();
+                    return rs.getInt("ID_FILM");
+                }
+            }
+
         } catch (SQLException e) {
             System.out.println(e.getMessage());
+            System.err.println("Failed to update film: " + e.getMessage());
         }
+        return -1;
     }
 }

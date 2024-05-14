@@ -1,8 +1,6 @@
 package org.example;
 
-import org.example.ORM.DAO.ActorDAO;
-import org.example.ORM.DAO.FilmDAO;
-import org.example.ORM.DAO.Film_CategoryDAO;
+import org.example.ORM.DAO.*;
 import org.example.ORM.DTO.Actor;
 import org.example.ORM.DTO.Film;
 import org.example.ORM.DTO.Film_Category;
@@ -10,11 +8,6 @@ import org.example.ORM.Database;
 
 import java.sql.Connection;
 import java.sql.SQLException;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -40,10 +33,14 @@ public class Main {
 
 
             FilmDAO filmDAO = new FilmDAO();
-            int filmId = filmDAO.insertFilm(new Film(0, filmName, director, releaseYear, duration, description), connection);
+            Film film = new Film(0, filmName, director, releaseYear, duration, description);
+            int filmId = filmDAO.insertFilm(film, connection);
             if (filmId == -1) {
-                connection.rollback();
-                throw new RuntimeException("Failed to insert film");
+                filmId = filmDAO.updateFilm(film, connection);
+                if (filmId == -1) {
+                    connection.rollback();
+                    throw new RuntimeException("Failed to insert or update film");
+                }
             }
 
             System.out.println("Enter Actor first name:");
@@ -69,6 +66,12 @@ public class Main {
                 connection.rollback();
                 throw new RuntimeException("Failed to insert category");
             }
+
+            FilmActorDAO filmActorDAO = new FilmActorDAO();
+            filmActorDAO.insertFilmActor(filmId, actorId, connection);
+
+            FilmCategoriesDAO filmCategoriesDAO = new FilmCategoriesDAO();
+            filmCategoriesDAO.insertFilmCategory(filmId, categoryId, connection);
 
             connection.commit();
             System.out.println("Categories, film and actors inserted successfully");

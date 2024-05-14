@@ -42,4 +42,3 @@ CREATE TABLE Film_Categories
     FOREIGN KEY (id_category_film) REFERENCES film_category (id_category_film)
 );
 
-select * from film;

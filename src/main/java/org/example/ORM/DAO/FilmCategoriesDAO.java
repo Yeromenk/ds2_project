@@ -1,26 +1,20 @@
 package org.example.ORM.DAO;
 
-import org.example.ORM.DTO.Film;
-import org.example.ORM.DTO.Film_Category;
-import org.example.ORM.Database;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class FilmCategoriesDAO {
-    public void insertFilmCategory(Film film, Film_Category film_category) {
-        String SQL = "INSERT INTO film_categories (ID_FILM, ID_CATEGORY_FILM) select ?, ? from FILM_CATEGORY where NAME = ?";
+    public void insertFilmCategory(int filmId, int categoryId, Connection connection) {
+        String SQL = "INSERT INTO Film_Categories (id_film, id_category_film) VALUES (?, ?)";
 
-        try (Connection conn = Database.getConnection();
-             PreparedStatement pstmt = conn.prepareStatement(SQL)) {
-
-            pstmt.setInt(1, film.getIdFilm());
-            pstmt.setInt(2, film_category.getId_category_film());
-
+        try (PreparedStatement pstmt = connection.prepareStatement(SQL)) {
+            pstmt.setInt(1, filmId);
+            pstmt.setInt(2, categoryId);
             pstmt.executeUpdate();
         } catch (SQLException e) {
             System.out.println(e.getMessage());
+            System.err.println("Failed to insert film_categories: " + e.getMessage());
         }
     }
 }
