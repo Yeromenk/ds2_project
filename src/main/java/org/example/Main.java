@@ -10,7 +10,10 @@ import org.example.ORM.Database;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
 
@@ -29,9 +32,9 @@ public class Main {
             System.out.println("Enter Director:");
             String director = scanner.nextLine();
             System.out.println("Enter Release year:");
-            int releaseYear = Integer.parseInt(scanner.nextLine());
+            int releaseYear =  0;
             System.out.println("Enter Duration:");
-            int duration = Integer.parseInt(scanner.nextLine());
+            int duration = 0;
             System.out.println("Enter Description:");
             String description = scanner.nextLine();
 
@@ -52,7 +55,7 @@ public class Main {
                 String lastName = scanner.nextLine();
 
                 ActorDAO actorDAO = new ActorDAO();
-                int actorId = actorDAO.insertActor(new Actor(0, firstName, lastName, null, null), connection);
+                int actorId = actorDAO.insertActor(new Actor(0, firstName, lastName, 0, null), connection);
                 if (actorId == -1) {
                     connection.rollback();
                     throw new RuntimeException("Failed to insert actor");

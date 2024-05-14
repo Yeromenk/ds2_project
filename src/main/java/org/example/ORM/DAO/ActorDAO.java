@@ -17,7 +17,7 @@ public class ActorDAO {
 
             pstmt.setString(1, actor.getFirst_name());
             pstmt.setString(2, actor.getLast_name());
-            pstmt.setDate(3, (Date) actor.getDate_of_birth());
+            pstmt.setInt(3,  actor.getDate_of_birth());
             pstmt.setString(4, actor.getNationality());
             pstmt.executeUpdate();
         } catch (SQLException e) {

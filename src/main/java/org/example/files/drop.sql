@@ -1,9 +1,6 @@
-drop table FILM;
-drop table ACTOR;
-drop table FILM_ACTOR;
-drop table FILM_CATEGORIES;
-drop table FILM_CATEGORY;
-drop table FILM_RATING;
-drop table SUBSCRIPTION;
-drop table CLIENT;
-drop table MANAGER;
+drop table FILM CASCADE CONSTRAINTS;
+drop table ACTOR CASCADE CONSTRAINTS;
+drop table FILM_ACTOR CASCADE CONSTRAINTS;
+drop table FILM_CATEGORIES CASCADE CONSTRAINTS;
+drop table FILM_CATEGORY CASCADE CONSTRAINTS;
+
