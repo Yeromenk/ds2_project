@@ -1,0 +1,9 @@
+drop table FILM;
+drop table ACTOR;
+drop table FILM_ACTOR;
+drop table FILM_CATEGORIES;
+drop table FILM_CATEGORY;
+drop table FILM_RATING;
+drop table SUBSCRIPTION;
+drop table CLIENT;
+drop table MANAGER;
