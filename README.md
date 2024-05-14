@@ -1,4 +1,4 @@
-# Project Title
+# Java Database Systems Oracle
 
 This is a Java project for subject Database Systems 2 that uses SQL and Maven. It includes functionality for managing films, actors, and categories.
 
