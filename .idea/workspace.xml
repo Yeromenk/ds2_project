@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f28ffae-3234-4533-8996-08b6b033e4bb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/864086d3-a283-4bbf-a1d7-af2817397e76.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/864086d3-a283-4bbf-a1d7-af2817397e76.xml" afterDir="false" />
+    <list default="true" id="3f28ffae-3234-4533-8996-08b6b033e4bb" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ORM/DAO/ActorDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ORM/DAO/ActorDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ORM/DAO/FilmDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ORM/DAO/FilmDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ORM/DTO/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ORM/DTO/Actor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/files/create.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files/drop.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/files/drop.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ORM/DAO/Film_CategoryDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ORM/DAO/Film_CategoryDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,8 +66,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715690520348</updated>
-      <workItem from="1715690521798" duration="8913000" />
+      <workItem from="1715690521798" duration="11824000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <option name="closed" value="true" />
+      <created>1715701241479</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715701241479</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,5 +84,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>

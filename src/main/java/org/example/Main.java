@@ -32,9 +32,9 @@ public class Main {
             System.out.println("Enter Director:");
             String director = scanner.nextLine();
             System.out.println("Enter Release year:");
-            int releaseYear =  0;
+            int releaseYear = Integer.parseInt(scanner.nextLine());
             System.out.println("Enter Duration:");
-            int duration = 0;
+            int duration = Integer.parseInt(scanner.nextLine());
             System.out.println("Enter Description:");
             String description = scanner.nextLine();
 
@@ -46,43 +46,28 @@ public class Main {
                 throw new RuntimeException("Failed to insert film");
             }
 
-            List<Actor> actors = new ArrayList<>();
-            boolean addMoreActors = true;
-            while (addMoreActors) {
-                System.out.println("Enter Actor first name:");
-                String firstName = scanner.nextLine();
-                System.out.println("Enter Actor last name:");
-                String lastName = scanner.nextLine();
+            System.out.println("Enter Actor first name:");
+            String firstName = scanner.nextLine();
+            System.out.println("Enter Actor last name:");
+            String lastName = scanner.nextLine();
+            System.out.println("Enter Actor nationality:");
+            String nationality = scanner.nextLine();
 
-                ActorDAO actorDAO = new ActorDAO();
-                int actorId = actorDAO.insertActor(new Actor(0, firstName, lastName, 0, null), connection);
-                if (actorId == -1) {
-                    connection.rollback();
-                    throw new RuntimeException("Failed to insert actor");
-                }
-
-                System.out.println("Do you want to add another actor? (yes/no)");
-                String choice = scanner.nextLine();
-                addMoreActors = choice.equalsIgnoreCase("yes");
+            ActorDAO actorDAO = new ActorDAO();
+            int actorId = actorDAO.insertActor(new Actor(0, firstName, lastName, 0, nationality), connection);
+            if (actorId == -1) {
+                connection.rollback();
+                throw new RuntimeException("Failed to insert actor");
             }
 
-            List<Film_Category> categories = new ArrayList<>();
-            boolean addMoreCategories = true;
-            while (addMoreCategories) {
-                System.out.println("Enter Category name:");
-                String categoryName = scanner.nextLine();
+            System.out.println("Enter Category name:");
+            String categoryName = scanner.nextLine();
 
-
-                Film_CategoryDAO filmCategoryDAO = new Film_CategoryDAO();
-                int categoryId = filmCategoryDAO.insertFilm_Category(new Film_Category(0, categoryName), connection);
-                if (categoryId == -1) {
-                    connection.rollback();
-                    throw new RuntimeException("Failed to insert category");
-                }
-
-                System.out.println("Do you want to add another category? (yes/no)");
-                String choice = scanner.nextLine();
-                addMoreCategories = choice.equalsIgnoreCase("yes");
+            Film_CategoryDAO filmCategoryDAO = new Film_CategoryDAO();
+            int categoryId = filmCategoryDAO.insertFilm_Category(new Film_Category(0, categoryName), connection);
+            if (categoryId == -1) {
+                connection.rollback();
+                throw new RuntimeException("Failed to insert category");
             }
 
             connection.commit();

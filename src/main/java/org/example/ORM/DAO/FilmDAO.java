@@ -9,15 +9,14 @@ public class FilmDAO {
     public int insertFilm(Film film, Connection connection) {
         String SQL = "INSERT INTO film (film_name, director, release_year, duration, description) VALUES (?, ?, ?, ?, ?)";
 
-        try (Connection conn = Database.getConnection();
-             PreparedStatement pstmt = conn.prepareStatement(SQL, Statement.RETURN_GENERATED_KEYS)) {
+        try (PreparedStatement pstmt = connection.prepareStatement(SQL, new String[]{"ID_FILM"})) {
 
             pstmt.setString(1, film.getFilm_name());
             pstmt.setString(2, film.getDirector());
             pstmt.setInt(3,  film.getRelease_year());
             pstmt.setInt(4, film.getDuration());
             pstmt.setString(5, film.getDescription());
-            pstmt.executeUpdate();
+
 
             int affectedRows = pstmt.executeUpdate();
 
@@ -30,8 +29,8 @@ public class FilmDAO {
             }
 
         } catch (SQLException e) {
-            System.out.println(e.getMessage());
-            System.err.println("Failed to insert pet: " + e.getMessage());
+            e.printStackTrace();
+            System.err.println("Failed to insert film: " + e.getMessage());
         }
         return -1;
     }

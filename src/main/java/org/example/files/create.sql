@@ -1,6 +1,6 @@
 CREATE TABLE film_category
 (
-    id_category_film int         not null primary key,
+    id_category_film int           GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     name             VARCHAR(40) NOT NULL
 );
 
@@ -41,3 +41,5 @@ CREATE TABLE Film_Categories
     FOREIGN KEY (id_film) REFERENCES film (id_film),
     FOREIGN KEY (id_category_film) REFERENCES film_category (id_category_film)
 );
+
+select * from film;

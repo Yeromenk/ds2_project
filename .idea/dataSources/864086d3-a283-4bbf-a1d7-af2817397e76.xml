@@ -963,9 +963,9 @@
     <schema id="320" parent="1" name="PUBLIC">
       <CreatedTimestamp>2019-05-30.05:10:17</CreatedTimestamp>
       <DbLinksHash>745353212</DbLinksHash>
-      <IntrospectionL1Timestamp>2024-05-14.19:34:52</IntrospectionL1Timestamp>
-      <IntrospectionL2Timestamp>2024-05-14.19:34:52</IntrospectionL2Timestamp>
-      <IntrospectionL3Timestamp>2024-05-14.19:34:52</IntrospectionL3Timestamp>
+      <IntrospectionL1Timestamp>2024-05-14.20:32:34</IntrospectionL1Timestamp>
+      <IntrospectionL2Timestamp>2024-05-14.20:32:34</IntrospectionL2Timestamp>
+      <IntrospectionL3Timestamp>2024-05-14.20:32:34</IntrospectionL3Timestamp>
       <IntrospectionVersion>200820</IntrospectionVersion>
       <ModifiedTimestamp>2020-04-20.16:20:13</ModifiedTimestamp>
       <ObjectId>1</ObjectId>
@@ -1312,11 +1312,11 @@
     <schema id="434" parent="1" name="YER0013">
       <CreatedTimestamp>2024-03-07.11:52:52</CreatedTimestamp>
       <Current>1</Current>
-      <IntrospectionL1Timestamp>2024-05-14.19:34:52</IntrospectionL1Timestamp>
-      <IntrospectionL2Timestamp>2024-05-14.19:34:52</IntrospectionL2Timestamp>
-      <IntrospectionL3Timestamp>2024-05-14.19:34:52</IntrospectionL3Timestamp>
+      <IntrospectionL1Timestamp>2024-05-14.20:32:34</IntrospectionL1Timestamp>
+      <IntrospectionL2Timestamp>2024-05-14.20:32:34</IntrospectionL2Timestamp>
+      <IntrospectionL3Timestamp>2024-05-14.20:32:34</IntrospectionL3Timestamp>
       <IntrospectionVersion>200820</IntrospectionVersion>
-      <ModifiedTimestamp>2024-05-14.19:34:50</ModifiedTimestamp>
+      <ModifiedTimestamp>2024-05-14.20:31:18</ModifiedTimestamp>
       <ObjectId>1542</ObjectId>
     </schema>
     <schema id="435" parent="1" name="ZAC0088">
@@ -63817,182 +63817,212 @@
       <ObjectId>701515</ObjectId>
       <SequenceIdentity>1(1)</SequenceIdentity>
     </sequence>
-    <table id="8408" parent="434" name="ACTOR">
-      <CreatedTimestamp>2024-05-14.19:34:50</CreatedTimestamp>
+    <sequence id="8408" parent="434" name="ISEQ$$_701556">
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>20</CacheSize>
+      <CreatedTimestamp>2024-05-14.20:31:18</CreatedTimestamp>
+      <DetailsLevel>2</DetailsLevel>
+      <ModifiedTimestamp>2024-05-14.20:31:18</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>701557</ObjectId>
+      <SequenceIdentity>1(1)</SequenceIdentity>
+    </sequence>
+    <sequence id="8409" parent="434" name="ISEQ$$_701559">
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>20</CacheSize>
+      <CreatedTimestamp>2024-05-14.20:31:18</CreatedTimestamp>
+      <DetailsLevel>2</DetailsLevel>
+      <ModifiedTimestamp>2024-05-14.20:31:18</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>701560</ObjectId>
+      <SequenceIdentity>1(1)</SequenceIdentity>
+    </sequence>
+    <sequence id="8410" parent="434" name="ISEQ$$_701562">
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>20</CacheSize>
+      <CreatedTimestamp>2024-05-14.20:31:18</CreatedTimestamp>
+      <DetailsLevel>2</DetailsLevel>
+      <ModifiedTimestamp>2024-05-14.20:31:18</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>701563</ObjectId>
+      <SequenceIdentity>1(1)</SequenceIdentity>
+    </sequence>
+    <table id="8411" parent="434" name="ACTOR">
+      <CreatedTimestamp>2024-05-14.20:31:18</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
-      <ModifiedTimestamp>2024-05-14.19:34:50</ModifiedTimestamp>
-      <ObjectId>701514</ObjectId>
+      <ModifiedTimestamp>2024-05-14.20:31:18</ModifiedTimestamp>
+      <ObjectId>701562</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="8409" parent="434" name="BOD_SCHUZE">
+    <table id="8412" parent="434" name="BOD_SCHUZE">
       <CreatedTimestamp>2024-03-28.12:31:29</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2024-03-28.12:31:29</ModifiedTimestamp>
       <ObjectId>656731</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="8410" parent="434" name="COURSE">
+    <table id="8413" parent="434" name="COURSE">
       <CreatedTimestamp>2024-03-26.19:17:38</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2024-03-26.19:18:07</ModifiedTimestamp>
       <ObjectId>651373</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="8411" parent="434" name="FILM">
-      <CreatedTimestamp>2024-05-14.19:34:50</CreatedTimestamp>
+    <table id="8414" parent="434" name="FILM">
+      <CreatedTimestamp>2024-05-14.20:31:18</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
-      <ModifiedTimestamp>2024-05-14.19:34:50</ModifiedTimestamp>
-      <ObjectId>701511</ObjectId>
+      <ModifiedTimestamp>2024-05-14.20:31:18</ModifiedTimestamp>
+      <ObjectId>701559</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="8412" parent="434" name="FILM_ACTOR">
-      <CreatedTimestamp>2024-05-14.19:34:50</CreatedTimestamp>
+    <table id="8415" parent="434" name="FILM_ACTOR">
+      <CreatedTimestamp>2024-05-14.20:31:18</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
-      <ModifiedTimestamp>2024-05-14.19:34:50</ModifiedTimestamp>
-      <ObjectId>701517</ObjectId>
+      <ModifiedTimestamp>2024-05-14.20:31:18</ModifiedTimestamp>
+      <ObjectId>701565</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="8413" parent="434" name="FILM_CATEGORIES">
-      <CreatedTimestamp>2024-05-14.19:34:50</CreatedTimestamp>
+    <table id="8416" parent="434" name="FILM_CATEGORIES">
+      <CreatedTimestamp>2024-05-14.20:31:18</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
-      <ModifiedTimestamp>2024-05-14.19:34:50</ModifiedTimestamp>
-      <ObjectId>701519</ObjectId>
+      <ModifiedTimestamp>2024-05-14.20:31:18</ModifiedTimestamp>
+      <ObjectId>701567</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="8414" parent="434" name="FILM_CATEGORY">
-      <CreatedTimestamp>2024-05-14.19:34:50</CreatedTimestamp>
+    <table id="8417" parent="434" name="FILM_CATEGORY">
+      <CreatedTimestamp>2024-05-14.20:31:18</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
-      <ModifiedTimestamp>2024-05-14.19:34:50</ModifiedTimestamp>
-      <ObjectId>701509</ObjectId>
+      <ModifiedTimestamp>2024-05-14.20:31:18</ModifiedTimestamp>
+      <ObjectId>701556</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="8415" parent="434" name="FUNKCE">
+    <table id="8418" parent="434" name="FUNKCE">
       <CreatedTimestamp>2024-03-28.12:31:24</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2024-03-28.12:31:24</ModifiedTimestamp>
       <ObjectId>656724</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="8416" parent="434" name="HLASOVANI">
+    <table id="8419" parent="434" name="HLASOVANI">
       <CreatedTimestamp>2024-03-28.11:52:46</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2024-03-28.11:52:46</ModifiedTimestamp>
       <ObjectId>656023</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="8417" parent="434" name="HLASOVANI_POSLANEC">
+    <table id="8420" parent="434" name="HLASOVANI_POSLANEC">
       <CreatedTimestamp>2024-03-28.11:52:49</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2024-03-28.11:52:49</ModifiedTimestamp>
       <ObjectId>656041</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="8418" parent="434" name="OMLUVA">
+    <table id="8421" parent="434" name="OMLUVA">
       <CreatedTimestamp>2024-03-28.12:31:22</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2024-03-28.12:31:22</ModifiedTimestamp>
       <ObjectId>656719</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="8419" parent="434" name="ORGAN">
+    <table id="8422" parent="434" name="ORGAN">
       <CreatedTimestamp>2024-03-28.11:52:37</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2024-03-28.11:52:37</ModifiedTimestamp>
       <ObjectId>655967</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="8420" parent="434" name="OSOBA">
+    <table id="8423" parent="434" name="OSOBA">
       <CreatedTimestamp>2024-03-28.11:52:32</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2024-03-28.11:52:32</ModifiedTimestamp>
       <ObjectId>655931</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="8421" parent="434" name="POSLANEC">
+    <table id="8424" parent="434" name="POSLANEC">
       <CreatedTimestamp>2024-03-28.11:52:39</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2024-04-03.20:07:14</ModifiedTimestamp>
       <ObjectId>655980</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="8422" parent="434" name="REWARD">
+    <table id="8425" parent="434" name="REWARD">
       <CreatedTimestamp>2024-03-26.19:28:56</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2024-03-26.19:28:56</ModifiedTimestamp>
       <ObjectId>651394</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="8423" parent="434" name="SCHUZE">
+    <table id="8426" parent="434" name="SCHUZE">
       <CreatedTimestamp>2024-03-28.11:52:40</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2024-04-03.22:39:18</ModifiedTimestamp>
       <ObjectId>655992</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="8424" parent="434" name="SCHUZE_STAV">
+    <table id="8427" parent="434" name="SCHUZE_STAV">
       <CreatedTimestamp>2024-03-28.12:00:27</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2024-03-28.12:00:27</ModifiedTimestamp>
       <ObjectId>656573</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="8425" parent="434" name="STUDENT">
+    <table id="8428" parent="434" name="STUDENT">
       <CreatedTimestamp>2024-03-26.19:17:38</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2024-03-26.19:18:08</ModifiedTimestamp>
       <ObjectId>651369</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="8426" parent="434" name="STUDENTCOURSE">
+    <table id="8429" parent="434" name="STUDENTCOURSE">
       <CreatedTimestamp>2024-03-26.19:17:39</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2024-03-26.19:18:08</ModifiedTimestamp>
       <ObjectId>651375</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="8427" parent="434" name="TEACHER">
+    <table id="8430" parent="434" name="TEACHER">
       <CreatedTimestamp>2024-03-26.19:17:38</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2024-03-26.19:17:38</ModifiedTimestamp>
       <ObjectId>651371</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="8428" parent="434" name="TYP_FUNKCE">
+    <table id="8431" parent="434" name="TYP_FUNKCE">
       <CreatedTimestamp>2024-03-28.12:31:24</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2024-03-28.12:31:24</ModifiedTimestamp>
       <ObjectId>656721</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="8429" parent="434" name="TYP_ORGANU">
+    <table id="8432" parent="434" name="TYP_ORGANU">
       <CreatedTimestamp>2024-03-28.11:52:34</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2024-03-28.11:52:34</ModifiedTimestamp>
       <ObjectId>655954</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="8430" parent="434" name="ZARAZENI">
+    <table id="8433" parent="434" name="ZARAZENI">
       <CreatedTimestamp>2024-03-28.11:59:58</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2024-03-28.11:59:58</ModifiedTimestamp>
       <ObjectId>656558</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="8431" parent="434" name="ZMATECNE">
+    <table id="8434" parent="434" name="ZMATECNE">
       <CreatedTimestamp>2024-03-28.12:31:25</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2024-03-28.12:31:25</ModifiedTimestamp>
       <ObjectId>656729</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="8432" parent="434" name="ZMATECNE_HLASOVANI_POSLANEC">
+    <table id="8435" parent="434" name="ZMATECNE_HLASOVANI_POSLANEC">
       <CreatedTimestamp>2024-03-28.12:31:25</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2024-03-28.12:31:25</ModifiedTimestamp>
       <ObjectId>656727</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <data-file id="8433" parent="445" name="D:\DBSYS\ORACLE\SYSTEM01.DBF">
+    <data-file id="8436" parent="445" name="D:\DBSYS\ORACLE\SYSTEM01.DBF">
       <AutoExtensible>1</AutoExtensible>
       <AvailabilityStatus>A</AvailabilityStatus>
       <FileId>1</FileId>
@@ -64003,7 +64033,7 @@
       <Position>1</Position>
       <UserSize>196992</UserSize>
     </data-file>
-    <data-file id="8434" parent="446" name="D:\DBSYS\ORACLE\SYSAUX01.DBF">
+    <data-file id="8437" parent="446" name="D:\DBSYS\ORACLE\SYSAUX01.DBF">
       <AutoExtensible>1</AutoExtensible>
       <AvailabilityStatus>A</AvailabilityStatus>
       <FileId>3</FileId>
@@ -64014,7 +64044,7 @@
       <Position>3</Position>
       <UserSize>573312</UserSize>
     </data-file>
-    <data-file id="8435" parent="447" name="D:\DBSYS\ORACLE\UNDOTBS01.DBF">
+    <data-file id="8438" parent="447" name="D:\DBSYS\ORACLE\UNDOTBS01.DBF">
       <AutoExtensible>1</AutoExtensible>
       <AvailabilityStatus>A</AvailabilityStatus>
       <FileId>4</FileId>
@@ -64025,7 +64055,7 @@
       <Position>4</Position>
       <UserSize>4194168</UserSize>
     </data-file>
-    <data-file id="8436" parent="447" name="D:\DBSYS\ORACLE\UNDOTBS02.DBF">
+    <data-file id="8439" parent="447" name="D:\DBSYS\ORACLE\UNDOTBS02.DBF">
       <AutoExtensible>1</AutoExtensible>
       <AvailabilityStatus>A</AvailabilityStatus>
       <FileId>8</FileId>
@@ -64036,7 +64066,7 @@
       <Position>8</Position>
       <UserSize>1048448</UserSize>
     </data-file>
-    <data-file id="8437" parent="448" name="D:\DBSYS\ORACLE\TEMP01.DBF">
+    <data-file id="8440" parent="448" name="D:\DBSYS\ORACLE\TEMP01.DBF">
       <AutoExtensible>1</AutoExtensible>
       <FileId>1</FileId>
       <FileSize>4194176</FileSize>
@@ -64045,7 +64075,7 @@
       <Position>1</Position>
       <UserSize>4194048</UserSize>
     </data-file>
-    <data-file id="8438" parent="449" name="D:\DBSYS\ORACLE\USERS03.DBF">
+    <data-file id="8441" parent="449" name="D:\DBSYS\ORACLE\USERS03.DBF">
       <AutoExtensible>1</AutoExtensible>
       <AvailabilityStatus>A</AvailabilityStatus>
       <FileId>2</FileId>
@@ -64056,7 +64086,7 @@
       <Position>2</Position>
       <UserSize>4194048</UserSize>
     </data-file>
-    <data-file id="8439" parent="449" name="D:\DBSYS\ORACLE\USERS02.DBF">
+    <data-file id="8442" parent="449" name="D:\DBSYS\ORACLE\USERS02.DBF">
       <AutoExtensible>1</AutoExtensible>
       <AvailabilityStatus>A</AvailabilityStatus>
       <FileId>5</FileId>
@@ -64067,7 +64097,7 @@
       <Position>5</Position>
       <UserSize>4194168</UserSize>
     </data-file>
-    <data-file id="8440" parent="449" name="D:\DBSYS\ORACLE\USERS01.DBF">
+    <data-file id="8443" parent="449" name="D:\DBSYS\ORACLE\USERS01.DBF">
       <AutoExtensible>1</AutoExtensible>
       <AvailabilityStatus>A</AvailabilityStatus>
       <FileId>7</FileId>
@@ -64078,7 +64108,7 @@
       <Position>7</Position>
       <UserSize>4194168</UserSize>
     </data-file>
-    <data-file id="8441" parent="449" name="D:\DBSYS\ORACLE\USERS04.DBF">
+    <data-file id="8444" parent="449" name="D:\DBSYS\ORACLE\USERS04.DBF">
       <AutoExtensible>1</AutoExtensible>
       <AvailabilityStatus>A</AvailabilityStatus>
       <FileId>9</FileId>
@@ -64089,7 +64119,7 @@
       <Position>9</Position>
       <UserSize>4194048</UserSize>
     </data-file>
-    <data-file id="8442" parent="449" name="D:\DBSYS\ORACLE\USERS05.DBF">
+    <data-file id="8445" parent="449" name="D:\DBSYS\ORACLE\USERS05.DBF">
       <AutoExtensible>1</AutoExtensible>
       <AvailabilityStatus>A</AvailabilityStatus>
       <FileId>10</FileId>
@@ -64100,396 +64130,396 @@
       <Position>10</Position>
       <UserSize>4185984</UserSize>
     </data-file>
-    <argument id="8443" parent="8378">
+    <argument id="8446" parent="8378">
       <ArgumentDirection>R</ArgumentDirection>
       <DasType>VARCHAR|0s</DasType>
     </argument>
-    <argument id="8444" parent="8378" name="P_LOGIN">
+    <argument id="8447" parent="8378" name="P_LOGIN">
       <DasType>STUDENT.LOGIN() %TYPE|0cs</DasType>
       <Position>1</Position>
     </argument>
-    <argument id="8445" parent="8378" name="P_FNAME">
+    <argument id="8448" parent="8378" name="P_FNAME">
       <DasType>STUDENT.FNAME() %TYPE|0cs</DasType>
       <Position>2</Position>
     </argument>
-    <argument id="8446" parent="8378" name="P_LNAME">
+    <argument id="8449" parent="8378" name="P_LNAME">
       <DasType>STUDENT.LNAME() %TYPE|0cs</DasType>
       <Position>3</Position>
     </argument>
-    <argument id="8447" parent="8378" name="P_EMAIL">
+    <argument id="8450" parent="8378" name="P_EMAIL">
       <DasType>STUDENT.EMAIL() %TYPE|0cs</DasType>
       <Position>4</Position>
     </argument>
-    <argument id="8448" parent="8378" name="P_GRADE">
+    <argument id="8451" parent="8378" name="P_GRADE">
       <DasType>STUDENT.GRADE() %TYPE|0cs</DasType>
       <Position>5</Position>
     </argument>
-    <argument id="8449" parent="8378" name="P_DATEOFBIRTH">
+    <argument id="8452" parent="8378" name="P_DATEOFBIRTH">
       <DasType>STUDENT.DATE_OF_BIRTH() %TYPE|0cs</DasType>
       <Position>6</Position>
     </argument>
-    <argument id="8450" parent="8379">
+    <argument id="8453" parent="8379">
       <ArgumentDirection>R</ArgumentDirection>
       <DasType>varchar|0s</DasType>
     </argument>
-    <argument id="8451" parent="8379" name="P_FNAME">
+    <argument id="8454" parent="8379" name="P_FNAME">
       <DasType>STUDENT.FNAME() %TYPE|0cs</DasType>
       <Position>1</Position>
     </argument>
-    <argument id="8452" parent="8379" name="P_LNAME">
+    <argument id="8455" parent="8379" name="P_LNAME">
       <DasType>STUDENT.LNAME() %TYPE|0cs</DasType>
       <Position>2</Position>
     </argument>
-    <argument id="8453" parent="8379" name="P_EMAIL">
+    <argument id="8456" parent="8379" name="P_EMAIL">
       <DasType>STUDENT.EMAIL() %TYPE|0cs</DasType>
       <Position>3</Position>
     </argument>
-    <argument id="8454" parent="8379" name="P_GRADE">
+    <argument id="8457" parent="8379" name="P_GRADE">
       <DasType>STUDENT.GRADE() %TYPE|0cs</DasType>
       <Position>4</Position>
     </argument>
-    <argument id="8455" parent="8379" name="P_DATEOFBIRTH">
+    <argument id="8458" parent="8379" name="P_DATEOFBIRTH">
       <DasType>STUDENT.DATE_OF_BIRTH() %TYPE|0cs</DasType>
       <Position>5</Position>
     </argument>
-    <argument id="8456" parent="8380">
+    <argument id="8459" parent="8380">
       <ArgumentDirection>R</ArgumentDirection>
       <DasType>varchar|0s</DasType>
     </argument>
-    <argument id="8457" parent="8380" name="P_FNAME">
+    <argument id="8460" parent="8380" name="P_FNAME">
       <DasType>STUDENT.FNAME() %TYPE|0cs</DasType>
       <Position>1</Position>
     </argument>
-    <argument id="8458" parent="8380" name="P_LNAME">
+    <argument id="8461" parent="8380" name="P_LNAME">
       <DasType>STUDENT.LNAME() %TYPE|0cs</DasType>
       <Position>2</Position>
     </argument>
-    <argument id="8459" parent="8380" name="P_EMAIL">
+    <argument id="8462" parent="8380" name="P_EMAIL">
       <DasType>STUDENT.EMAIL() %TYPE|0cs</DasType>
       <Position>3</Position>
     </argument>
-    <argument id="8460" parent="8380" name="P_GRADE">
+    <argument id="8463" parent="8380" name="P_GRADE">
       <DasType>STUDENT.GRADE() %TYPE|0cs</DasType>
       <Position>4</Position>
     </argument>
-    <argument id="8461" parent="8380" name="P_DATEOFBIRTH">
+    <argument id="8464" parent="8380" name="P_DATEOFBIRTH">
       <DasType>STUDENT.DATE_OF_BIRTH() %TYPE|0cs</DasType>
       <Position>5</Position>
     </argument>
-    <argument id="8462" parent="8381">
+    <argument id="8465" parent="8381">
       <ArgumentDirection>R</ArgumentDirection>
       <DasType>varchar|0s</DasType>
     </argument>
-    <argument id="8463" parent="8381" name="P_FNAME">
+    <argument id="8466" parent="8381" name="P_FNAME">
       <DasType>STUDENT.FNAME() %TYPE|0cs</DasType>
       <Position>1</Position>
     </argument>
-    <argument id="8464" parent="8381" name="P_LNAME">
+    <argument id="8467" parent="8381" name="P_LNAME">
       <DasType>STUDENT.LNAME() %TYPE|0cs</DasType>
       <Position>2</Position>
     </argument>
-    <argument id="8465" parent="8381" name="P_EMAIL">
+    <argument id="8468" parent="8381" name="P_EMAIL">
       <DasType>STUDENT.EMAIL() %TYPE|0cs</DasType>
       <Position>3</Position>
     </argument>
-    <argument id="8466" parent="8381" name="P_GRADE">
+    <argument id="8469" parent="8381" name="P_GRADE">
       <DasType>STUDENT.GRADE() %TYPE|0cs</DasType>
       <Position>4</Position>
     </argument>
-    <argument id="8467" parent="8381" name="P_DATEOFBIRTH">
+    <argument id="8470" parent="8381" name="P_DATEOFBIRTH">
       <DasType>STUDENT.DATE_OF_BIRTH() %TYPE|0cs</DasType>
       <Position>5</Position>
     </argument>
-    <argument id="8468" parent="8382">
+    <argument id="8471" parent="8382">
       <ArgumentDirection>R</ArgumentDirection>
       <DasType>STUDENT.LOGIN() %TYPE|0cs</DasType>
     </argument>
-    <argument id="8469" parent="8382" name="P_LNAME">
+    <argument id="8472" parent="8382" name="P_LNAME">
       <DasType>STUDENT.LNAME() %TYPE|0cs</DasType>
       <Position>1</Position>
     </argument>
-    <argument id="8470" parent="8383">
+    <argument id="8473" parent="8383">
       <ArgumentDirection>R</ArgumentDirection>
       <DasType>varchar|0s</DasType>
     </argument>
-    <argument id="8471" parent="8383" name="P_LNAME">
+    <argument id="8474" parent="8383" name="P_LNAME">
       <DasType>STUDENT.LOGIN() %TYPE|0cs</DasType>
       <Position>1</Position>
     </argument>
-    <argument id="8472" parent="8384">
+    <argument id="8475" parent="8384">
       <ArgumentDirection>R</ArgumentDirection>
       <DasType>boolean|0s</DasType>
     </argument>
-    <argument id="8473" parent="8384" name="P_LOGIN">
+    <argument id="8476" parent="8384" name="P_LOGIN">
       <DasType>STUDENT.LOGIN() %TYPE|0cs</DasType>
       <Position>1</Position>
     </argument>
-    <argument id="8474" parent="8385">
+    <argument id="8477" parent="8385">
       <ArgumentDirection>R</ArgumentDirection>
       <DasType>CHAR|0s</DasType>
     </argument>
-    <argument id="8475" parent="8385" name="P_ID_OSOBA">
+    <argument id="8478" parent="8385" name="P_ID_OSOBA">
       <DasType>NUMBER|0s</DasType>
       <Position>1</Position>
     </argument>
-    <argument id="8476" parent="8385" name="P_ID_ORGAN">
+    <argument id="8479" parent="8385" name="P_ID_ORGAN">
       <DasType>NUMBER|0s</DasType>
       <Position>2</Position>
     </argument>
-    <argument id="8477" parent="8385" name="P_SET">
+    <argument id="8480" parent="8385" name="P_SET">
       <DasType>CHAR|0s</DasType>
       <Position>3</Position>
     </argument>
-    <argument id="8478" parent="8386">
+    <argument id="8481" parent="8386">
       <ArgumentDirection>R</ArgumentDirection>
       <DasType>number|0s</DasType>
     </argument>
-    <argument id="8479" parent="8386" name="P_ID_OSOBA">
+    <argument id="8482" parent="8386" name="P_ID_OSOBA">
       <DasType>number|0s</DasType>
       <Position>1</Position>
     </argument>
-    <argument id="8480" parent="8387" name="P_LOGIN">
+    <argument id="8483" parent="8387" name="P_LOGIN">
       <DasType>STUDENT.LOGIN() %TYPE|0cs</DasType>
       <Position>1</Position>
     </argument>
-    <argument id="8481" parent="8387" name="P_FNAME">
+    <argument id="8484" parent="8387" name="P_FNAME">
       <DasType>STUDENT.FNAME() %TYPE|0cs</DasType>
       <Position>2</Position>
     </argument>
-    <argument id="8482" parent="8387" name="P_LNAME">
+    <argument id="8485" parent="8387" name="P_LNAME">
       <DasType>STUDENT.LNAME() %TYPE|0cs</DasType>
       <Position>3</Position>
     </argument>
-    <argument id="8483" parent="8387" name="P_EMAIL">
+    <argument id="8486" parent="8387" name="P_EMAIL">
       <DasType>STUDENT.EMAIL() %TYPE|0cs</DasType>
       <Position>4</Position>
     </argument>
-    <argument id="8484" parent="8387" name="P_GRADE">
+    <argument id="8487" parent="8387" name="P_GRADE">
       <DasType>STUDENT.GRADE() %TYPE|0cs</DasType>
       <Position>5</Position>
     </argument>
-    <argument id="8485" parent="8387" name="P_DATEOFBIRTH">
+    <argument id="8488" parent="8387" name="P_DATEOFBIRTH">
       <DasType>STUDENT.DATE_OF_BIRTH() %TYPE|0cs</DasType>
       <Position>6</Position>
     </argument>
-    <argument id="8486" parent="8388" name="P_FNAME">
+    <argument id="8489" parent="8388" name="P_FNAME">
       <DasType>STUDENT.FNAME() %TYPE|0cs</DasType>
       <Position>1</Position>
     </argument>
-    <argument id="8487" parent="8388" name="P_LNAME">
+    <argument id="8490" parent="8388" name="P_LNAME">
       <DasType>STUDENT.LNAME() %TYPE|0cs</DasType>
       <Position>2</Position>
     </argument>
-    <argument id="8488" parent="8388" name="P_EMAIL">
+    <argument id="8491" parent="8388" name="P_EMAIL">
       <DasType>STUDENT.EMAIL() %TYPE|0cs</DasType>
       <Position>3</Position>
     </argument>
-    <argument id="8489" parent="8388" name="P_GRADE">
+    <argument id="8492" parent="8388" name="P_GRADE">
       <DasType>STUDENT.GRADE() %TYPE|0cs</DasType>
       <Position>4</Position>
     </argument>
-    <argument id="8490" parent="8388" name="P_DATEOFBIRTH">
+    <argument id="8493" parent="8388" name="P_DATEOFBIRTH">
       <DasType>STUDENT.DATE_OF_BIRTH() %TYPE|0cs</DasType>
       <Position>5</Position>
     </argument>
-    <argument id="8491" parent="8389" name="P_FNAME">
+    <argument id="8494" parent="8389" name="P_FNAME">
       <DasType>STUDENT.FNAME() %TYPE|0cs</DasType>
       <Position>1</Position>
     </argument>
-    <argument id="8492" parent="8389" name="P_LNAME">
+    <argument id="8495" parent="8389" name="P_LNAME">
       <DasType>STUDENT.LNAME() %TYPE|0cs</DasType>
       <Position>2</Position>
     </argument>
-    <argument id="8493" parent="8389" name="P_EMAIL">
+    <argument id="8496" parent="8389" name="P_EMAIL">
       <DasType>STUDENT.EMAIL() %TYPE|0cs</DasType>
       <Position>3</Position>
     </argument>
-    <argument id="8494" parent="8389" name="P_GRADE">
+    <argument id="8497" parent="8389" name="P_GRADE">
       <DasType>STUDENT.GRADE() %TYPE|0cs</DasType>
       <Position>4</Position>
     </argument>
-    <argument id="8495" parent="8389" name="P_DATEOFBIRTH">
+    <argument id="8498" parent="8389" name="P_DATEOFBIRTH">
       <DasType>STUDENT.DATE_OF_BIRTH() %TYPE|0cs</DasType>
       <Position>5</Position>
     </argument>
-    <argument id="8496" parent="8390" name="P_STUDENT_LOGIN">
+    <argument id="8499" parent="8390" name="P_STUDENT_LOGIN">
       <DasType>STUDENT.LOGIN() %TYPE|0cs</DasType>
       <Position>1</Position>
     </argument>
-    <argument id="8497" parent="8390" name="P_COURSE_CODE">
+    <argument id="8500" parent="8390" name="P_COURSE_CODE">
       <DasType>COURSE.CODE() %TYPE|0cs</DasType>
       <Position>2</Position>
     </argument>
-    <argument id="8498" parent="8390" name="P_YEAR">
+    <argument id="8501" parent="8390" name="P_YEAR">
       <DasType>int|0s</DasType>
       <Position>3</Position>
     </argument>
-    <argument id="8499" parent="8391" name="P_YEAR">
+    <argument id="8502" parent="8391" name="P_YEAR">
       <DasType>int|0s</DasType>
       <Position>1</Position>
     </argument>
-    <argument id="8500" parent="8391" name="P_AMOUNT">
+    <argument id="8503" parent="8391" name="P_AMOUNT">
       <DasType>number|0s</DasType>
       <Position>2</Position>
     </argument>
-    <argument id="8501" parent="8393" name="P_TEXT">
+    <argument id="8504" parent="8393" name="P_TEXT">
       <DasType>varchar2|0s</DasType>
       <Position>1</Position>
     </argument>
-    <argument id="8502" parent="8394" name="P_EMAIL">
+    <argument id="8505" parent="8394" name="P_EMAIL">
       <DasType>varchar2|0s</DasType>
       <Position>1</Position>
     </argument>
-    <argument id="8503" parent="8394" name="P_SUBJECT">
+    <argument id="8506" parent="8394" name="P_SUBJECT">
       <DasType>varchar2|0s</DasType>
       <Position>2</Position>
     </argument>
-    <argument id="8504" parent="8394" name="P_BODY">
+    <argument id="8507" parent="8394" name="P_BODY">
       <DasType>varchar2|0s</DasType>
       <Position>3</Position>
     </argument>
-    <argument id="8505" parent="8395" name="P_ID_HLASOVANI">
+    <argument id="8508" parent="8395" name="P_ID_HLASOVANI">
       <DasType>HLASOVANI.ID_HLASOVANI() %TYPE|0cs</DasType>
       <Position>1</Position>
     </argument>
-    <argument id="8506" parent="8395" name="P_ID_POSLANEC">
+    <argument id="8509" parent="8395" name="P_ID_POSLANEC">
       <DasType>POSLANEC.ID_POSLANEC() %TYPE|0cs</DasType>
       <Position>2</Position>
     </argument>
-    <argument id="8507" parent="8395" name="P_VYSLEDEK">
+    <argument id="8510" parent="8395" name="P_VYSLEDEK">
       <DasType>varchar|0s</DasType>
       <Position>3</Position>
     </argument>
-    <argument id="8508" parent="8397" name="P_OD">
+    <argument id="8511" parent="8397" name="P_OD">
       <DasType>date|0s</DasType>
       <Position>1</Position>
     </argument>
-    <argument id="8509" parent="8397" name="P_DO">
+    <argument id="8512" parent="8397" name="P_DO">
       <DasType>date|0s</DasType>
       <Position>2</Position>
     </argument>
-    <argument id="8510" parent="8398" name="P_OD">
+    <argument id="8513" parent="8398" name="P_OD">
       <DasType>DATE|0s</DasType>
       <Position>1</Position>
     </argument>
-    <argument id="8511" parent="8398" name="P_DO">
+    <argument id="8514" parent="8398" name="P_DO">
       <DasType>DATE|0s</DasType>
       <Position>2</Position>
     </argument>
-    <column id="8512" parent="8408" name="ID_ACTOR">
+    <column id="8515" parent="8411" name="ID_ACTOR">
       <DasType>NUMBER(*)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <SequenceName>ISEQ$$_701514</SequenceName>
+      <SequenceName>ISEQ$$_701562</SequenceName>
     </column>
-    <column id="8513" parent="8408" name="FIRST_NAME">
+    <column id="8516" parent="8411" name="FIRST_NAME">
       <DasType>VARCHAR2(40 byte)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="8514" parent="8408" name="LAST_NAME">
+    <column id="8517" parent="8411" name="LAST_NAME">
       <DasType>VARCHAR2(40 byte)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="8515" parent="8408" name="DATE_OF_BIRTH">
+    <column id="8518" parent="8411" name="DATE_OF_BIRTH">
       <DasType>NUMBER(*)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="8516" parent="8408" name="NATIONALITY">
+    <column id="8519" parent="8411" name="NATIONALITY">
       <DasType>VARCHAR2(40 byte)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <index id="8517" parent="8408" name="SYS_C00638413">
+    <index id="8520" parent="8411" name="SYS_C00638458">
       <ColNames>ID_ACTOR</ColNames>
-      <CreatedTimestamp>2024-05-14.19:34:50</CreatedTimestamp>
-      <ModifiedTimestamp>2024-05-14.19:34:50</ModifiedTimestamp>
+      <CreatedTimestamp>2024-05-14.20:31:18</CreatedTimestamp>
+      <ModifiedTimestamp>2024-05-14.20:31:18</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>701516</ObjectId>
+      <ObjectId>701564</ObjectId>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="8518" parent="8408" name="SYS_C00638413">
+    <key id="8521" parent="8411" name="SYS_C00638458">
       <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2024-05-14.19:34:50</ModifiedTimestamp>
+      <ModifiedTimestamp>2024-05-14.20:31:18</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
-      <UnderlyingIndexName>SYS_C00638413</UnderlyingIndexName>
+      <UnderlyingIndexName>SYS_C00638458</UnderlyingIndexName>
     </key>
-    <column id="8519" parent="8409" name="ID_BOD">
+    <column id="8522" parent="8412" name="ID_BOD">
       <DasType>NUMBER(*)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="8520" parent="8409" name="ID_SCHUZE">
+    <column id="8523" parent="8412" name="ID_SCHUZE">
       <DasType>NUMBER(*)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="8521" parent="8409" name="ID_TISK">
+    <column id="8524" parent="8412" name="ID_TISK">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="8522" parent="8409" name="ID_TYP">
+    <column id="8525" parent="8412" name="ID_TYP">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="8523" parent="8409" name="BOD">
+    <column id="8526" parent="8412" name="BOD">
       <DasType>NUMBER(*)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="8524" parent="8409" name="UPLNY_NAZ">
+    <column id="8527" parent="8412" name="UPLNY_NAZ">
       <DasType>VARCHAR2(4000 byte)|0s</DasType>
       <Position>6</Position>
     </column>
-    <column id="8525" parent="8409" name="UPLNY_KON">
+    <column id="8528" parent="8412" name="UPLNY_KON">
       <DasType>VARCHAR2(255 byte)|0s</DasType>
       <Position>7</Position>
     </column>
-    <column id="8526" parent="8409" name="POZNAMKA">
+    <column id="8529" parent="8412" name="POZNAMKA">
       <DasType>VARCHAR2(255 byte)|0s</DasType>
       <Position>8</Position>
     </column>
-    <column id="8527" parent="8409" name="ID_BOD_STAV">
+    <column id="8530" parent="8412" name="ID_BOD_STAV">
       <DasType>NUMBER(*)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>9</Position>
     </column>
-    <column id="8528" parent="8409" name="POZVANKA">
+    <column id="8531" parent="8412" name="POZVANKA">
       <DasType>VARCHAR2(255 byte)|0s</DasType>
       <Position>10</Position>
     </column>
-    <column id="8529" parent="8409" name="RJ">
+    <column id="8532" parent="8412" name="RJ">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>11</Position>
     </column>
-    <column id="8530" parent="8409" name="POZN2">
+    <column id="8533" parent="8412" name="POZN2">
       <DasType>VARCHAR2(255 byte)|0s</DasType>
       <Position>12</Position>
     </column>
-    <column id="8531" parent="8409" name="DRUH_BODU">
+    <column id="8534" parent="8412" name="DRUH_BODU">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>13</Position>
     </column>
-    <column id="8532" parent="8409" name="ID_SD">
+    <column id="8535" parent="8412" name="ID_SD">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>14</Position>
     </column>
-    <column id="8533" parent="8409" name="ZKRATKA">
+    <column id="8536" parent="8412" name="ZKRATKA">
       <DasType>VARCHAR2(50 byte)|0s</DasType>
       <Position>15</Position>
     </column>
-    <foreign-key id="8534" parent="8409" name="BOD_SCHUZE_IBFK_1">
+    <foreign-key id="8537" parent="8412" name="BOD_SCHUZE_IBFK_1">
       <ColNames>ID_SCHUZE</ColNames>
       <ModifiedTimestamp>2024-03-28.12:31:29</ModifiedTimestamp>
       <OnDelete>restrict</OnDelete>
       <RefKeyName>SCHUZE_PK</RefKeyName>
       <RefTableName>SCHUZE</RefTableName>
     </foreign-key>
-    <trigger id="8535" parent="8409" name="BOD_SCHUZE_BEFORE_INSERT">
+    <trigger id="8538" parent="8412" name="BOD_SCHUZE_BEFORE_INSERT">
       <CreatedTimestamp>2024-04-03.23:36:18</CreatedTimestamp>
       <Errors>8:40:PL/SQL: ORA-00923: FROM keyword not found where expected
 8:3:PL/SQL: SQL Statement ignored
@@ -64501,7 +64531,7 @@
       <SourceTextLength>1058</SourceTextLength>
       <Turn>before-row</Turn>
     </trigger>
-    <trigger id="8536" parent="8409" name="ZADANI">
+    <trigger id="8539" parent="8412" name="ZADANI">
       <CreatedTimestamp>2024-04-03.23:32:20</CreatedTimestamp>
       <Errors>9:11:PLS-00049: bad bind variable &apos;NEW.DATUM&apos;
 19:11:PLS-00049: bad bind variable &apos;NEW.DATUM&apos;</Errors>
@@ -64512,39 +64542,39 @@
       <SourceTextLength>781</SourceTextLength>
       <Turn>before-row</Turn>
     </trigger>
-    <column id="8537" parent="8410" name="CODE">
+    <column id="8540" parent="8413" name="CODE">
       <DasType>CHAR(11 byte)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="8538" parent="8410" name="NAME">
+    <column id="8541" parent="8413" name="NAME">
       <DasType>VARCHAR2(50 byte)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="8539" parent="8410" name="CAPACITY">
+    <column id="8542" parent="8413" name="CAPACITY">
       <DasType>NUMBER(*)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="8540" parent="8410" name="TEACHER_LOGIN">
+    <column id="8543" parent="8413" name="TEACHER_LOGIN">
       <DasType>CHAR(6 byte)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="8541" parent="8410" name="GRADE">
+    <column id="8544" parent="8413" name="GRADE">
       <DasType>NUMBER(*)|0s</DasType>
       <DefaultExpression>1</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <foreign-key id="8542" parent="8410" name="COURSE_TEACHER_FK">
+    <foreign-key id="8545" parent="8413" name="COURSE_TEACHER_FK">
       <ColNames>TEACHER_LOGIN</ColNames>
       <ModifiedTimestamp>2024-03-26.19:17:38</ModifiedTimestamp>
       <OnDelete>restrict</OnDelete>
       <RefKeyName>TEACHER_PK</RefKeyName>
       <RefTableName>TEACHER</RefTableName>
     </foreign-key>
-    <index id="8543" parent="8410" name="SYS_C00574421">
+    <index id="8546" parent="8413" name="SYS_C00574421">
       <ColNames>CODE</ColNames>
       <CreatedTimestamp>2024-03-26.19:17:38</CreatedTimestamp>
       <ModifiedTimestamp>2024-03-26.19:17:38</ModifiedTimestamp>
@@ -64553,208 +64583,209 @@
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="8544" parent="8410" name="SYS_C00574421">
+    <key id="8547" parent="8413" name="SYS_C00574421">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2024-03-26.19:17:38</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>SYS_C00574421</UnderlyingIndexName>
     </key>
-    <column id="8545" parent="8411" name="ID_FILM">
+    <column id="8548" parent="8414" name="ID_FILM">
       <DasType>NUMBER(*)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <SequenceName>ISEQ$$_701511</SequenceName>
+      <SequenceName>ISEQ$$_701559</SequenceName>
     </column>
-    <column id="8546" parent="8411" name="FILM_NAME">
+    <column id="8549" parent="8414" name="FILM_NAME">
       <DasType>VARCHAR2(50 byte)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="8547" parent="8411" name="DIRECTOR">
+    <column id="8550" parent="8414" name="DIRECTOR">
       <DasType>VARCHAR2(50 byte)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="8548" parent="8411" name="RELEASE_YEAR">
+    <column id="8551" parent="8414" name="RELEASE_YEAR">
       <DasType>NUMBER(*)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="8549" parent="8411" name="DURATION">
+    <column id="8552" parent="8414" name="DURATION">
       <DasType>NUMBER(*)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="8550" parent="8411" name="DESCRIPTION">
+    <column id="8553" parent="8414" name="DESCRIPTION">
       <DasType>VARCHAR2(2000 byte)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
-    <index id="8551" parent="8411" name="SYS_C00638407">
+    <index id="8554" parent="8414" name="SYS_C00638452">
       <ColNames>ID_FILM</ColNames>
-      <CreatedTimestamp>2024-05-14.19:34:50</CreatedTimestamp>
-      <ModifiedTimestamp>2024-05-14.19:34:50</ModifiedTimestamp>
+      <CreatedTimestamp>2024-05-14.20:31:18</CreatedTimestamp>
+      <ModifiedTimestamp>2024-05-14.20:31:18</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>701513</ObjectId>
+      <ObjectId>701561</ObjectId>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="8552" parent="8411" name="SYS_C00638407">
+    <key id="8555" parent="8414" name="SYS_C00638452">
       <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2024-05-14.19:34:50</ModifiedTimestamp>
+      <ModifiedTimestamp>2024-05-14.20:31:18</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
-      <UnderlyingIndexName>SYS_C00638407</UnderlyingIndexName>
+      <UnderlyingIndexName>SYS_C00638452</UnderlyingIndexName>
     </key>
-    <column id="8553" parent="8412" name="ID_FILM">
+    <column id="8556" parent="8415" name="ID_FILM">
       <DasType>NUMBER(*)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="8554" parent="8412" name="ID_ACTOR">
+    <column id="8557" parent="8415" name="ID_ACTOR">
       <DasType>NUMBER(*)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <foreign-key id="8555" parent="8412" name="SYS_C00638417">
+    <foreign-key id="8558" parent="8415" name="SYS_C00638462">
       <ColNames>ID_FILM</ColNames>
-      <ModifiedTimestamp>2024-05-14.19:34:50</ModifiedTimestamp>
+      <ModifiedTimestamp>2024-05-14.20:31:18</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
       <OnDelete>restrict</OnDelete>
-      <RefKeyName>SYS_C00638407</RefKeyName>
+      <RefKeyName>SYS_C00638452</RefKeyName>
       <RefTableName>FILM</RefTableName>
     </foreign-key>
-    <foreign-key id="8556" parent="8412" name="SYS_C00638418">
+    <foreign-key id="8559" parent="8415" name="SYS_C00638463">
       <ColNames>ID_ACTOR</ColNames>
-      <ModifiedTimestamp>2024-05-14.19:34:50</ModifiedTimestamp>
+      <ModifiedTimestamp>2024-05-14.20:31:18</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
       <OnDelete>restrict</OnDelete>
-      <RefKeyName>SYS_C00638413</RefKeyName>
+      <RefKeyName>SYS_C00638458</RefKeyName>
       <RefTableName>ACTOR</RefTableName>
     </foreign-key>
-    <index id="8557" parent="8412" name="SYS_C00638416">
+    <index id="8560" parent="8415" name="SYS_C00638461">
       <ColNames>ID_FILM
 ID_ACTOR</ColNames>
-      <CreatedTimestamp>2024-05-14.19:34:50</CreatedTimestamp>
-      <ModifiedTimestamp>2024-05-14.19:34:50</ModifiedTimestamp>
+      <CreatedTimestamp>2024-05-14.20:31:18</CreatedTimestamp>
+      <ModifiedTimestamp>2024-05-14.20:31:18</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>701518</ObjectId>
+      <ObjectId>701566</ObjectId>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="8558" parent="8412" name="SYS_C00638416">
+    <key id="8561" parent="8415" name="SYS_C00638461">
       <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2024-05-14.19:34:50</ModifiedTimestamp>
+      <ModifiedTimestamp>2024-05-14.20:31:18</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
-      <UnderlyingIndexName>SYS_C00638416</UnderlyingIndexName>
+      <UnderlyingIndexName>SYS_C00638461</UnderlyingIndexName>
     </key>
-    <column id="8559" parent="8413" name="ID_FILM">
+    <column id="8562" parent="8416" name="ID_FILM">
       <DasType>NUMBER(*)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="8560" parent="8413" name="ID_CATEGORY_FILM">
+    <column id="8563" parent="8416" name="ID_CATEGORY_FILM">
       <DasType>NUMBER(*)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <foreign-key id="8561" parent="8413" name="SYS_C00638422">
+    <foreign-key id="8564" parent="8416" name="SYS_C00638467">
       <ColNames>ID_FILM</ColNames>
-      <ModifiedTimestamp>2024-05-14.19:34:50</ModifiedTimestamp>
+      <ModifiedTimestamp>2024-05-14.20:31:18</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
       <OnDelete>restrict</OnDelete>
-      <RefKeyName>SYS_C00638407</RefKeyName>
+      <RefKeyName>SYS_C00638452</RefKeyName>
       <RefTableName>FILM</RefTableName>
     </foreign-key>
-    <foreign-key id="8562" parent="8413" name="SYS_C00638423">
+    <foreign-key id="8565" parent="8416" name="SYS_C00638468">
       <ColNames>ID_CATEGORY_FILM</ColNames>
-      <ModifiedTimestamp>2024-05-14.19:34:50</ModifiedTimestamp>
+      <ModifiedTimestamp>2024-05-14.20:31:18</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
       <OnDelete>restrict</OnDelete>
-      <RefKeyName>SYS_C00638400</RefKeyName>
+      <RefKeyName>SYS_C00638445</RefKeyName>
       <RefTableName>FILM_CATEGORY</RefTableName>
     </foreign-key>
-    <index id="8563" parent="8413" name="SYS_C00638421">
+    <index id="8566" parent="8416" name="SYS_C00638466">
       <ColNames>ID_FILM
 ID_CATEGORY_FILM</ColNames>
-      <CreatedTimestamp>2024-05-14.19:34:50</CreatedTimestamp>
-      <ModifiedTimestamp>2024-05-14.19:34:50</ModifiedTimestamp>
+      <CreatedTimestamp>2024-05-14.20:31:18</CreatedTimestamp>
+      <ModifiedTimestamp>2024-05-14.20:31:18</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>701520</ObjectId>
+      <ObjectId>701568</ObjectId>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="8564" parent="8413" name="SYS_C00638421">
+    <key id="8567" parent="8416" name="SYS_C00638466">
       <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2024-05-14.19:34:50</ModifiedTimestamp>
+      <ModifiedTimestamp>2024-05-14.20:31:18</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
-      <UnderlyingIndexName>SYS_C00638421</UnderlyingIndexName>
+      <UnderlyingIndexName>SYS_C00638466</UnderlyingIndexName>
     </key>
-    <column id="8565" parent="8414" name="ID_CATEGORY_FILM">
+    <column id="8568" parent="8417" name="ID_CATEGORY_FILM">
       <DasType>NUMBER(*)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
+      <SequenceName>ISEQ$$_701556</SequenceName>
     </column>
-    <column id="8566" parent="8414" name="NAME">
+    <column id="8569" parent="8417" name="NAME">
       <DasType>VARCHAR2(40 byte)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <index id="8567" parent="8414" name="SYS_C00638400">
+    <index id="8570" parent="8417" name="SYS_C00638445">
       <ColNames>ID_CATEGORY_FILM</ColNames>
-      <CreatedTimestamp>2024-05-14.19:34:50</CreatedTimestamp>
-      <ModifiedTimestamp>2024-05-14.19:34:50</ModifiedTimestamp>
+      <CreatedTimestamp>2024-05-14.20:31:18</CreatedTimestamp>
+      <ModifiedTimestamp>2024-05-14.20:31:18</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>701510</ObjectId>
+      <ObjectId>701558</ObjectId>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="8568" parent="8414" name="SYS_C00638400">
+    <key id="8571" parent="8417" name="SYS_C00638445">
       <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2024-05-14.19:34:50</ModifiedTimestamp>
+      <ModifiedTimestamp>2024-05-14.20:31:18</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
-      <UnderlyingIndexName>SYS_C00638400</UnderlyingIndexName>
+      <UnderlyingIndexName>SYS_C00638445</UnderlyingIndexName>
     </key>
-    <column id="8569" parent="8415" name="ID_FUNKCE">
+    <column id="8572" parent="8418" name="ID_FUNKCE">
       <DasType>NUMBER(*)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="8570" parent="8415" name="ID_ORGAN">
+    <column id="8573" parent="8418" name="ID_ORGAN">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="8571" parent="8415" name="ID_TYP_FUNKCE">
+    <column id="8574" parent="8418" name="ID_TYP_FUNKCE">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="8572" parent="8415" name="NAZEV_FUNKCE_CZ">
+    <column id="8575" parent="8418" name="NAZEV_FUNKCE_CZ">
       <DasType>VARCHAR2(100 byte)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="8573" parent="8415" name="PRIORITA">
+    <column id="8576" parent="8418" name="PRIORITA">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>5</Position>
     </column>
-    <foreign-key id="8574" parent="8415" name="FUNKCE_FK_ID_ORGAN">
+    <foreign-key id="8577" parent="8418" name="FUNKCE_FK_ID_ORGAN">
       <ColNames>ID_ORGAN</ColNames>
       <ModifiedTimestamp>2024-03-28.12:31:24</ModifiedTimestamp>
       <OnDelete>restrict</OnDelete>
       <RefKeyName>ORGAN_PK</RefKeyName>
       <RefTableName>ORGAN</RefTableName>
     </foreign-key>
-    <foreign-key id="8575" parent="8415" name="FUNKCE_FK_ID_TYP_FUNKCE">
+    <foreign-key id="8578" parent="8418" name="FUNKCE_FK_ID_TYP_FUNKCE">
       <ColNames>ID_TYP_FUNKCE</ColNames>
       <ModifiedTimestamp>2024-03-28.12:31:24</ModifiedTimestamp>
       <OnDelete>restrict</OnDelete>
       <RefKeyName>SYS_C00581643</RefKeyName>
       <RefTableName>TYP_FUNKCE</RefTableName>
     </foreign-key>
-    <index id="8576" parent="8415" name="FUNKCE_PK">
+    <index id="8579" parent="8418" name="FUNKCE_PK">
       <ColNames>ID_FUNKCE</ColNames>
       <CreatedTimestamp>2024-03-28.12:31:24</CreatedTimestamp>
       <ModifiedTimestamp>2024-03-28.12:31:24</ModifiedTimestamp>
@@ -64762,82 +64793,82 @@ ID_CATEGORY_FILM</ColNames>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="8577" parent="8415" name="FUNKCE_PK">
+    <key id="8580" parent="8418" name="FUNKCE_PK">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2024-03-28.12:31:24</ModifiedTimestamp>
       <Primary>1</Primary>
       <UnderlyingIndexName>FUNKCE_PK</UnderlyingIndexName>
     </key>
-    <column id="8578" parent="8416" name="ID_HLASOVANI">
+    <column id="8581" parent="8419" name="ID_HLASOVANI">
       <DasType>NUMBER(*)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="8579" parent="8416" name="ID_ORGAN">
+    <column id="8582" parent="8419" name="ID_ORGAN">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="8580" parent="8416" name="SCHUZE">
+    <column id="8583" parent="8419" name="SCHUZE">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="8581" parent="8416" name="CISLO">
+    <column id="8584" parent="8419" name="CISLO">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="8582" parent="8416" name="BOD">
+    <column id="8585" parent="8419" name="BOD">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="8583" parent="8416" name="DATUM">
+    <column id="8586" parent="8419" name="DATUM">
       <DasType>DATE|0s</DasType>
       <Position>6</Position>
     </column>
-    <column id="8584" parent="8416" name="CAS">
+    <column id="8587" parent="8419" name="CAS">
       <DasType>TIMESTAMP(6)|0s</DasType>
       <Position>7</Position>
     </column>
-    <column id="8585" parent="8416" name="PRO">
+    <column id="8588" parent="8419" name="PRO">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>8</Position>
     </column>
-    <column id="8586" parent="8416" name="PROTI">
+    <column id="8589" parent="8419" name="PROTI">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>9</Position>
     </column>
-    <column id="8587" parent="8416" name="ZDRZEL">
+    <column id="8590" parent="8419" name="ZDRZEL">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>10</Position>
     </column>
-    <column id="8588" parent="8416" name="NEHLASOVAL">
+    <column id="8591" parent="8419" name="NEHLASOVAL">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>11</Position>
     </column>
-    <column id="8589" parent="8416" name="PRIHLASENO">
+    <column id="8592" parent="8419" name="PRIHLASENO">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>12</Position>
     </column>
-    <column id="8590" parent="8416" name="KVORUM">
+    <column id="8593" parent="8419" name="KVORUM">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>13</Position>
     </column>
-    <column id="8591" parent="8416" name="DRUH_HLASOVANI">
+    <column id="8594" parent="8419" name="DRUH_HLASOVANI">
       <DasType>CHAR(1 byte)|0s</DasType>
       <Position>14</Position>
     </column>
-    <column id="8592" parent="8416" name="VYSLEDEK">
+    <column id="8595" parent="8419" name="VYSLEDEK">
       <DasType>VARCHAR2(7 byte)|0s</DasType>
       <Position>15</Position>
     </column>
-    <column id="8593" parent="8416" name="NAZEV_DLOUHY">
+    <column id="8596" parent="8419" name="NAZEV_DLOUHY">
       <DasType>VARCHAR2(4000 byte)|0s</DasType>
       <Position>16</Position>
     </column>
-    <column id="8594" parent="8416" name="NAZEV_KRATKY">
+    <column id="8597" parent="8419" name="NAZEV_KRATKY">
       <DasType>VARCHAR2(255 byte)|0s</DasType>
       <Position>17</Position>
     </column>
-    <foreign-key id="8595" parent="8416" name="HLASOVANI_SCHUZE_FK">
+    <foreign-key id="8598" parent="8419" name="HLASOVANI_SCHUZE_FK">
       <ColNames>ID_ORGAN
 SCHUZE</ColNames>
       <ModifiedTimestamp>2024-03-28.11:52:46</ModifiedTimestamp>
@@ -64845,14 +64876,14 @@ SCHUZE</ColNames>
       <RefKeyName>SCHUZE_UNIQ</RefKeyName>
       <RefTableName>SCHUZE</RefTableName>
     </foreign-key>
-    <foreign-key id="8596" parent="8416" name="HLASOVANI_FK_ID_ORGAN">
+    <foreign-key id="8599" parent="8419" name="HLASOVANI_FK_ID_ORGAN">
       <ColNames>ID_ORGAN</ColNames>
       <ModifiedTimestamp>2024-03-28.11:52:46</ModifiedTimestamp>
       <OnDelete>restrict</OnDelete>
       <RefKeyName>ORGAN_PK</RefKeyName>
       <RefTableName>ORGAN</RefTableName>
     </foreign-key>
-    <index id="8597" parent="8416" name="SYS_C00580623">
+    <index id="8600" parent="8419" name="SYS_C00580623">
       <ColNames>ID_HLASOVANI</ColNames>
       <CreatedTimestamp>2024-03-28.11:52:46</CreatedTimestamp>
       <ModifiedTimestamp>2024-03-28.11:52:46</ModifiedTimestamp>
@@ -64861,42 +64892,42 @@ SCHUZE</ColNames>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="8598" parent="8416" name="SYS_C00580623">
+    <key id="8601" parent="8419" name="SYS_C00580623">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2024-03-28.11:52:46</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>SYS_C00580623</UnderlyingIndexName>
     </key>
-    <column id="8599" parent="8417" name="ID_POSLANEC">
+    <column id="8602" parent="8420" name="ID_POSLANEC">
       <DasType>NUMBER(*)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="8600" parent="8417" name="ID_HLASOVANI">
+    <column id="8603" parent="8420" name="ID_HLASOVANI">
       <DasType>NUMBER(*)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="8601" parent="8417" name="VYSLEDEK">
+    <column id="8604" parent="8420" name="VYSLEDEK">
       <DasType>CHAR(1 byte)|0s</DasType>
       <Position>3</Position>
     </column>
-    <foreign-key id="8602" parent="8417" name="HLASOVANI_POSLANEC_FK_ID_POSLANEC">
+    <foreign-key id="8605" parent="8420" name="HLASOVANI_POSLANEC_FK_ID_POSLANEC">
       <ColNames>ID_POSLANEC</ColNames>
       <ModifiedTimestamp>2024-03-28.11:52:49</ModifiedTimestamp>
       <OnDelete>restrict</OnDelete>
       <RefKeyName>POSLANEC_PK</RefKeyName>
       <RefTableName>POSLANEC</RefTableName>
     </foreign-key>
-    <foreign-key id="8603" parent="8417" name="HLASOVANI_POSLANEC_FK_ID_HLASOVANI">
+    <foreign-key id="8606" parent="8420" name="HLASOVANI_POSLANEC_FK_ID_HLASOVANI">
       <ColNames>ID_HLASOVANI</ColNames>
       <ModifiedTimestamp>2024-03-28.11:52:49</ModifiedTimestamp>
       <OnDelete>restrict</OnDelete>
       <RefKeyName>SYS_C00580623</RefKeyName>
       <RefTableName>HLASOVANI</RefTableName>
     </foreign-key>
-    <index id="8604" parent="8417" name="HLASOVANI_POSLANEC_PK">
+    <index id="8607" parent="8420" name="HLASOVANI_POSLANEC_PK">
       <ColNames>ID_POSLANEC
 ID_HLASOVANI</ColNames>
       <CreatedTimestamp>2024-03-28.11:52:49</CreatedTimestamp>
@@ -64905,105 +64936,105 @@ ID_HLASOVANI</ColNames>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="8605" parent="8417" name="HLASOVANI_POSLANEC_PK">
+    <key id="8608" parent="8420" name="HLASOVANI_POSLANEC_PK">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2024-03-28.11:52:49</ModifiedTimestamp>
       <Primary>1</Primary>
       <UnderlyingIndexName>HLASOVANI_POSLANEC_PK</UnderlyingIndexName>
     </key>
-    <column id="8606" parent="8418" name="ID_ORGAN">
+    <column id="8609" parent="8421" name="ID_ORGAN">
       <DasType>NUMBER(*)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="8607" parent="8418" name="ID_POSLANEC">
+    <column id="8610" parent="8421" name="ID_POSLANEC">
       <DasType>NUMBER(*)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="8608" parent="8418" name="DEN">
+    <column id="8611" parent="8421" name="DEN">
       <DasType>DATE|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="8609" parent="8418" name="OD">
+    <column id="8612" parent="8421" name="OD">
       <DasType>TIMESTAMP(6)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="8610" parent="8418" name="DO">
+    <column id="8613" parent="8421" name="DO">
       <DasType>TIMESTAMP(6)|0s</DasType>
       <Position>5</Position>
     </column>
-    <foreign-key id="8611" parent="8418" name="OMLUVA_FK_ID_ORGAN">
+    <foreign-key id="8614" parent="8421" name="OMLUVA_FK_ID_ORGAN">
       <ColNames>ID_ORGAN</ColNames>
       <ModifiedTimestamp>2024-03-28.12:31:22</ModifiedTimestamp>
       <OnDelete>restrict</OnDelete>
       <RefKeyName>ORGAN_PK</RefKeyName>
       <RefTableName>ORGAN</RefTableName>
     </foreign-key>
-    <foreign-key id="8612" parent="8418" name="OMLUVA_FK_ID_POSLANEC">
+    <foreign-key id="8615" parent="8421" name="OMLUVA_FK_ID_POSLANEC">
       <ColNames>ID_POSLANEC</ColNames>
       <ModifiedTimestamp>2024-03-28.12:31:22</ModifiedTimestamp>
       <OnDelete>restrict</OnDelete>
       <RefKeyName>POSLANEC_PK</RefKeyName>
       <RefTableName>POSLANEC</RefTableName>
     </foreign-key>
-    <column id="8613" parent="8419" name="ID_ORGAN">
+    <column id="8616" parent="8422" name="ID_ORGAN">
       <DasType>NUMBER(*)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="8614" parent="8419" name="RODIC_ID_ORGAN">
+    <column id="8617" parent="8422" name="RODIC_ID_ORGAN">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="8615" parent="8419" name="ID_TYP_ORG">
+    <column id="8618" parent="8422" name="ID_TYP_ORG">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="8616" parent="8419" name="ZKRATKA">
+    <column id="8619" parent="8422" name="ZKRATKA">
       <DasType>VARCHAR2(255 byte)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="8617" parent="8419" name="NAZEV_ORGANU_CZ">
+    <column id="8620" parent="8422" name="NAZEV_ORGANU_CZ">
       <DasType>VARCHAR2(4000 byte)|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="8618" parent="8419" name="NAZEV_ORGANU_EN">
+    <column id="8621" parent="8422" name="NAZEV_ORGANU_EN">
       <DasType>VARCHAR2(4000 byte)|0s</DasType>
       <Position>6</Position>
     </column>
-    <column id="8619" parent="8419" name="OD_ORGAN">
+    <column id="8622" parent="8422" name="OD_ORGAN">
       <DasType>DATE|0s</DasType>
       <Position>7</Position>
     </column>
-    <column id="8620" parent="8419" name="DO_ORGAN">
+    <column id="8623" parent="8422" name="DO_ORGAN">
       <DasType>DATE|0s</DasType>
       <Position>8</Position>
     </column>
-    <column id="8621" parent="8419" name="PRIORITA">
+    <column id="8624" parent="8422" name="PRIORITA">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>9</Position>
     </column>
-    <column id="8622" parent="8419" name="CL_ORGAN_BASE">
+    <column id="8625" parent="8422" name="CL_ORGAN_BASE">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>10</Position>
     </column>
-    <foreign-key id="8623" parent="8419" name="ORGAN_FK_RODIC_ID_ORGAN">
+    <foreign-key id="8626" parent="8422" name="ORGAN_FK_RODIC_ID_ORGAN">
       <ColNames>RODIC_ID_ORGAN</ColNames>
       <ModifiedTimestamp>2024-03-28.11:52:37</ModifiedTimestamp>
       <OnDelete>restrict</OnDelete>
       <RefKeyName>ORGAN_PK</RefKeyName>
       <RefTableName>ORGAN</RefTableName>
     </foreign-key>
-    <foreign-key id="8624" parent="8419" name="ORGAN_FK_ID_TYP_ORG">
+    <foreign-key id="8627" parent="8422" name="ORGAN_FK_ID_TYP_ORG">
       <ColNames>ID_TYP_ORG</ColNames>
       <ModifiedTimestamp>2024-03-28.11:52:37</ModifiedTimestamp>
       <OnDelete>restrict</OnDelete>
       <RefKeyName>TYP_ORGANU_PK</RefKeyName>
       <RefTableName>TYP_ORGANU</RefTableName>
     </foreign-key>
-    <index id="8625" parent="8419" name="ORGAN_PK">
+    <index id="8628" parent="8422" name="ORGAN_PK">
       <ColNames>ID_ORGAN</ColNames>
       <CreatedTimestamp>2024-03-28.11:52:37</CreatedTimestamp>
       <ModifiedTimestamp>2024-03-28.11:52:37</ModifiedTimestamp>
@@ -65011,50 +65042,50 @@ ID_HLASOVANI</ColNames>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="8626" parent="8419" name="ORGAN_PK">
+    <key id="8629" parent="8422" name="ORGAN_PK">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2024-03-28.11:52:37</ModifiedTimestamp>
       <Primary>1</Primary>
       <UnderlyingIndexName>ORGAN_PK</UnderlyingIndexName>
     </key>
-    <column id="8627" parent="8420" name="ID_OSOBA">
+    <column id="8630" parent="8423" name="ID_OSOBA">
       <DasType>NUMBER(*)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="8628" parent="8420" name="PRED">
+    <column id="8631" parent="8423" name="PRED">
       <DasType>VARCHAR2(30 byte)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="8629" parent="8420" name="PRIJMENI">
+    <column id="8632" parent="8423" name="PRIJMENI">
       <DasType>VARCHAR2(100 byte)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="8630" parent="8420" name="JMENO">
+    <column id="8633" parent="8423" name="JMENO">
       <DasType>VARCHAR2(100 byte)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="8631" parent="8420" name="ZA">
+    <column id="8634" parent="8423" name="ZA">
       <DasType>VARCHAR2(255 byte)|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="8632" parent="8420" name="NAROZENI">
+    <column id="8635" parent="8423" name="NAROZENI">
       <DasType>DATE|0s</DasType>
       <Position>6</Position>
     </column>
-    <column id="8633" parent="8420" name="POHLAVI">
+    <column id="8636" parent="8423" name="POHLAVI">
       <DasType>CHAR(2 byte)|0s</DasType>
       <Position>7</Position>
     </column>
-    <column id="8634" parent="8420" name="ZMENA">
+    <column id="8637" parent="8423" name="ZMENA">
       <DasType>DATE|0s</DasType>
       <Position>8</Position>
     </column>
-    <column id="8635" parent="8420" name="UMRTI">
+    <column id="8638" parent="8423" name="UMRTI">
       <DasType>DATE|0s</DasType>
       <Position>9</Position>
     </column>
-    <index id="8636" parent="8420" name="OSOBA_PK">
+    <index id="8639" parent="8423" name="OSOBA_PK">
       <ColNames>ID_OSOBA</ColNames>
       <CreatedTimestamp>2024-03-28.11:52:32</CreatedTimestamp>
       <ModifiedTimestamp>2024-03-28.11:52:32</ModifiedTimestamp>
@@ -65062,93 +65093,93 @@ ID_HLASOVANI</ColNames>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="8637" parent="8420" name="OSOBA_PK">
+    <key id="8640" parent="8423" name="OSOBA_PK">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2024-03-28.11:52:32</ModifiedTimestamp>
       <Primary>1</Primary>
       <UnderlyingIndexName>OSOBA_PK</UnderlyingIndexName>
     </key>
-    <column id="8638" parent="8421" name="ID_POSLANEC">
+    <column id="8641" parent="8424" name="ID_POSLANEC">
       <DasType>NUMBER(*)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="8639" parent="8421" name="ID_OSOBA">
+    <column id="8642" parent="8424" name="ID_OSOBA">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="8640" parent="8421" name="ID_KRAJ">
+    <column id="8643" parent="8424" name="ID_KRAJ">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="8641" parent="8421" name="ID_KANDIDATKA">
+    <column id="8644" parent="8424" name="ID_KANDIDATKA">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="8642" parent="8421" name="ID_ORGAN">
+    <column id="8645" parent="8424" name="ID_ORGAN">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="8643" parent="8421" name="WEB">
+    <column id="8646" parent="8424" name="WEB">
       <DasType>VARCHAR2(200 byte)|0s</DasType>
       <Position>6</Position>
     </column>
-    <column id="8644" parent="8421" name="ULICE">
+    <column id="8647" parent="8424" name="ULICE">
       <DasType>VARCHAR2(100 byte)|0s</DasType>
       <Position>7</Position>
     </column>
-    <column id="8645" parent="8421" name="OBEC">
+    <column id="8648" parent="8424" name="OBEC">
       <DasType>VARCHAR2(100 byte)|0s</DasType>
       <Position>8</Position>
     </column>
-    <column id="8646" parent="8421" name="PSC">
+    <column id="8649" parent="8424" name="PSC">
       <DasType>VARCHAR2(5 byte)|0s</DasType>
       <Position>9</Position>
     </column>
-    <column id="8647" parent="8421" name="EMAIL">
+    <column id="8650" parent="8424" name="EMAIL">
       <DasType>VARCHAR2(100 byte)|0s</DasType>
       <Position>10</Position>
     </column>
-    <column id="8648" parent="8421" name="TELEFON">
+    <column id="8651" parent="8424" name="TELEFON">
       <DasType>VARCHAR2(20 byte)|0s</DasType>
       <Position>11</Position>
     </column>
-    <column id="8649" parent="8421" name="FAX">
+    <column id="8652" parent="8424" name="FAX">
       <DasType>VARCHAR2(20 byte)|0s</DasType>
       <Position>12</Position>
     </column>
-    <column id="8650" parent="8421" name="PSP_TELEFON">
+    <column id="8653" parent="8424" name="PSP_TELEFON">
       <DasType>VARCHAR2(20 byte)|0s</DasType>
       <Position>13</Position>
     </column>
-    <column id="8651" parent="8421" name="FACEBOOK">
+    <column id="8654" parent="8424" name="FACEBOOK">
       <DasType>VARCHAR2(100 byte)|0s</DasType>
       <Position>14</Position>
     </column>
-    <column id="8652" parent="8421" name="FOTO">
+    <column id="8655" parent="8424" name="FOTO">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>15</Position>
     </column>
-    <column id="8653" parent="8421" name="ABSENCE_LEVEL">
+    <column id="8656" parent="8424" name="ABSENCE_LEVEL">
       <DasType>CHAR(1 byte)|0s</DasType>
       <DefaultExpression>&apos;x&apos;</DefaultExpression>
       <Position>17</Position>
     </column>
-    <foreign-key id="8654" parent="8421" name="POSLANEC_FK_ID_OSOBA">
+    <foreign-key id="8657" parent="8424" name="POSLANEC_FK_ID_OSOBA">
       <ColNames>ID_OSOBA</ColNames>
       <ModifiedTimestamp>2024-03-28.11:52:39</ModifiedTimestamp>
       <OnDelete>restrict</OnDelete>
       <RefKeyName>OSOBA_PK</RefKeyName>
       <RefTableName>OSOBA</RefTableName>
     </foreign-key>
-    <foreign-key id="8655" parent="8421" name="POSLANEC_FK_ID_ORGAN">
+    <foreign-key id="8658" parent="8424" name="POSLANEC_FK_ID_ORGAN">
       <ColNames>ID_ORGAN</ColNames>
       <ModifiedTimestamp>2024-03-28.11:52:39</ModifiedTimestamp>
       <OnDelete>restrict</OnDelete>
       <RefKeyName>ORGAN_PK</RefKeyName>
       <RefTableName>ORGAN</RefTableName>
     </foreign-key>
-    <index id="8656" parent="8421" name="POSLANEC_PK">
+    <index id="8659" parent="8424" name="POSLANEC_PK">
       <ColNames>ID_POSLANEC</ColNames>
       <CreatedTimestamp>2024-03-28.11:52:39</CreatedTimestamp>
       <ModifiedTimestamp>2024-03-28.11:52:39</ModifiedTimestamp>
@@ -65156,13 +65187,13 @@ ID_HLASOVANI</ColNames>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="8657" parent="8421" name="POSLANEC_PK">
+    <key id="8660" parent="8424" name="POSLANEC_PK">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2024-03-28.11:52:39</ModifiedTimestamp>
       <Primary>1</Primary>
       <UnderlyingIndexName>POSLANEC_PK</UnderlyingIndexName>
     </key>
-    <trigger id="8658" parent="8421" name="BEFORE_INSERT_POSLANEC">
+    <trigger id="8661" parent="8424" name="BEFORE_INSERT_POSLANEC">
       <CreatedTimestamp>2024-03-28.12:57:45</CreatedTimestamp>
       <DependsOnIds>655931,655967</DependsOnIds>
       <Events>I</Events>
@@ -65171,28 +65202,28 @@ ID_HLASOVANI</ColNames>
       <SourceTextLength>668</SourceTextLength>
       <Turn>before-row</Turn>
     </trigger>
-    <column id="8659" parent="8422" name="ID">
+    <column id="8662" parent="8425" name="ID">
       <DasType>NUMBER(*)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="8660" parent="8422" name="STUDENT_LOGIN">
+    <column id="8663" parent="8425" name="STUDENT_LOGIN">
       <DasType>CHAR(6 byte)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="8661" parent="8422" name="WINTER_REWARD">
+    <column id="8664" parent="8425" name="WINTER_REWARD">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="8662" parent="8422" name="SUMMER_REWARD">
+    <column id="8665" parent="8425" name="SUMMER_REWARD">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="8663" parent="8422" name="THESIS_REWARD">
+    <column id="8666" parent="8425" name="THESIS_REWARD">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>5</Position>
     </column>
-    <foreign-key id="8664" parent="8422" name="SYS_C00574446">
+    <foreign-key id="8667" parent="8425" name="SYS_C00574446">
       <ColNames>STUDENT_LOGIN</ColNames>
       <ModifiedTimestamp>2024-03-26.19:28:56</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
@@ -65200,7 +65231,7 @@ ID_HLASOVANI</ColNames>
       <RefKeyName>STUDENT_PK</RefKeyName>
       <RefTableName>STUDENT</RefTableName>
     </foreign-key>
-    <index id="8665" parent="8422" name="SYS_C00574445">
+    <index id="8668" parent="8425" name="SYS_C00574445">
       <ColNames>ID</ColNames>
       <CreatedTimestamp>2024-03-26.19:28:56</CreatedTimestamp>
       <ModifiedTimestamp>2024-03-26.19:28:56</ModifiedTimestamp>
@@ -65209,51 +65240,51 @@ ID_HLASOVANI</ColNames>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="8666" parent="8422" name="SYS_C00574445">
+    <key id="8669" parent="8425" name="SYS_C00574445">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2024-03-26.19:28:56</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>SYS_C00574445</UnderlyingIndexName>
     </key>
-    <column id="8667" parent="8423" name="ID_SCHUZE">
+    <column id="8670" parent="8426" name="ID_SCHUZE">
       <DasType>NUMBER(*)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="8668" parent="8423" name="ID_ORGAN">
+    <column id="8671" parent="8426" name="ID_ORGAN">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="8669" parent="8423" name="SCHUZE">
+    <column id="8672" parent="8426" name="SCHUZE">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="8670" parent="8423" name="OD_SCHUZE">
+    <column id="8673" parent="8426" name="OD_SCHUZE">
       <DasType>TIMESTAMP(6)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="8671" parent="8423" name="DO_SCHUZE">
+    <column id="8674" parent="8426" name="DO_SCHUZE">
       <DasType>TIMESTAMP(6)|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="8672" parent="8423" name="AKTUALIZACE">
+    <column id="8675" parent="8426" name="AKTUALIZACE">
       <DasType>TIMESTAMP(6)|0s</DasType>
       <Position>6</Position>
     </column>
-    <column id="8673" parent="8423" name="VOTE_LEVEL">
+    <column id="8676" parent="8426" name="VOTE_LEVEL">
       <DasType>CHAR(1 byte)|0s</DasType>
       <DefaultExpression>&apos;x&apos;</DefaultExpression>
       <Position>8</Position>
     </column>
-    <foreign-key id="8674" parent="8423" name="SCHUZE_FK_ID_ORGAN">
+    <foreign-key id="8677" parent="8426" name="SCHUZE_FK_ID_ORGAN">
       <ColNames>ID_ORGAN</ColNames>
       <ModifiedTimestamp>2024-03-28.11:52:40</ModifiedTimestamp>
       <OnDelete>restrict</OnDelete>
       <RefKeyName>ORGAN_PK</RefKeyName>
       <RefTableName>ORGAN</RefTableName>
     </foreign-key>
-    <index id="8675" parent="8423" name="SCHUZE_PK">
+    <index id="8678" parent="8426" name="SCHUZE_PK">
       <ColNames>ID_SCHUZE</ColNames>
       <CreatedTimestamp>2024-03-28.11:52:40</CreatedTimestamp>
       <ModifiedTimestamp>2024-03-28.11:52:40</ModifiedTimestamp>
@@ -65261,7 +65292,7 @@ ID_HLASOVANI</ColNames>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <index id="8676" parent="8423" name="SCHUZE_UNIQ">
+    <index id="8679" parent="8426" name="SCHUZE_UNIQ">
       <ColNames>ID_ORGAN
 SCHUZE</ColNames>
       <CreatedTimestamp>2024-03-28.11:52:40</CreatedTimestamp>
@@ -65270,85 +65301,85 @@ SCHUZE</ColNames>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="8677" parent="8423" name="SCHUZE_PK">
+    <key id="8680" parent="8426" name="SCHUZE_PK">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2024-03-28.11:52:40</ModifiedTimestamp>
       <Primary>1</Primary>
       <UnderlyingIndexName>SCHUZE_PK</UnderlyingIndexName>
     </key>
-    <key id="8678" parent="8423" name="SCHUZE_UNIQ">
+    <key id="8681" parent="8426" name="SCHUZE_UNIQ">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2024-03-28.11:52:40</ModifiedTimestamp>
       <UnderlyingIndexName>SCHUZE_UNIQ</UnderlyingIndexName>
     </key>
-    <column id="8679" parent="8424" name="ID_SCHUZE">
+    <column id="8682" parent="8427" name="ID_SCHUZE">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>1</Position>
     </column>
-    <column id="8680" parent="8424" name="STAV">
+    <column id="8683" parent="8427" name="STAV">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="8681" parent="8424" name="TYP">
+    <column id="8684" parent="8427" name="TYP">
       <DasType>VARCHAR2(255 byte)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="8682" parent="8424" name="TEXT_DT">
+    <column id="8685" parent="8427" name="TEXT_DT">
       <DasType>VARCHAR2(255 byte)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="8683" parent="8424" name="TEXT_ST">
+    <column id="8686" parent="8427" name="TEXT_ST">
       <DasType>VARCHAR2(255 byte)|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="8684" parent="8424" name="TM_LINE">
+    <column id="8687" parent="8427" name="TM_LINE">
       <DasType>VARCHAR2(255 byte)|0s</DasType>
       <Position>6</Position>
     </column>
-    <foreign-key id="8685" parent="8424" name="SCHUZE_STAV_FK_ID_SCHUZE">
+    <foreign-key id="8688" parent="8427" name="SCHUZE_STAV_FK_ID_SCHUZE">
       <ColNames>ID_SCHUZE</ColNames>
       <ModifiedTimestamp>2024-03-28.12:00:27</ModifiedTimestamp>
       <OnDelete>restrict</OnDelete>
       <RefKeyName>SCHUZE_PK</RefKeyName>
       <RefTableName>SCHUZE</RefTableName>
     </foreign-key>
-    <column id="8686" parent="8425" name="LOGIN">
+    <column id="8689" parent="8428" name="LOGIN">
       <DasType>CHAR(6 byte)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="8687" parent="8425" name="FNAME">
+    <column id="8690" parent="8428" name="FNAME">
       <DasType>VARCHAR2(30 byte)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="8688" parent="8425" name="LNAME">
+    <column id="8691" parent="8428" name="LNAME">
       <DasType>VARCHAR2(50 byte)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="8689" parent="8425" name="EMAIL">
+    <column id="8692" parent="8428" name="EMAIL">
       <DasType>VARCHAR2(50 byte)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="8690" parent="8425" name="GRADE">
+    <column id="8693" parent="8428" name="GRADE">
       <DasType>NUMBER(*)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="8691" parent="8425" name="DATE_OF_BIRTH">
+    <column id="8694" parent="8428" name="DATE_OF_BIRTH">
       <DasType>DATE|0s</DasType>
       <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
-    <column id="8692" parent="8425" name="ACCOUNT_BALANCE">
+    <column id="8695" parent="8428" name="ACCOUNT_BALANCE">
       <DasType>NUMBER(*)|0s</DasType>
       <DefaultExpression>1000</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>7</Position>
     </column>
-    <index id="8693" parent="8425" name="STUDENT_PK">
+    <index id="8696" parent="8428" name="STUDENT_PK">
       <ColNames>LOGIN</ColNames>
       <CreatedTimestamp>2024-03-26.19:17:38</CreatedTimestamp>
       <ModifiedTimestamp>2024-03-26.19:17:38</ModifiedTimestamp>
@@ -65356,46 +65387,46 @@ SCHUZE</ColNames>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="8694" parent="8425" name="STUDENT_PK">
+    <key id="8697" parent="8428" name="STUDENT_PK">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2024-03-26.19:17:38</ModifiedTimestamp>
       <Primary>1</Primary>
       <UnderlyingIndexName>STUDENT_PK</UnderlyingIndexName>
     </key>
-    <column id="8695" parent="8426" name="STUDENT_LOGIN">
+    <column id="8698" parent="8429" name="STUDENT_LOGIN">
       <DasType>CHAR(6 byte)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="8696" parent="8426" name="COURSE_CODE">
+    <column id="8699" parent="8429" name="COURSE_CODE">
       <DasType>CHAR(11 byte)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="8697" parent="8426" name="YEAR">
+    <column id="8700" parent="8429" name="YEAR">
       <DasType>NUMBER(*)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="8698" parent="8426" name="POINTS">
+    <column id="8701" parent="8429" name="POINTS">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>4</Position>
     </column>
-    <foreign-key id="8699" parent="8426" name="STUDENTCOURSE_STUDENT_FK">
+    <foreign-key id="8702" parent="8429" name="STUDENTCOURSE_STUDENT_FK">
       <ColNames>STUDENT_LOGIN</ColNames>
       <ModifiedTimestamp>2024-03-26.19:17:39</ModifiedTimestamp>
       <OnDelete>restrict</OnDelete>
       <RefKeyName>STUDENT_PK</RefKeyName>
       <RefTableName>STUDENT</RefTableName>
     </foreign-key>
-    <foreign-key id="8700" parent="8426" name="STUDENTCOURSE_COURSE_FK">
+    <foreign-key id="8703" parent="8429" name="STUDENTCOURSE_COURSE_FK">
       <ColNames>COURSE_CODE</ColNames>
       <ModifiedTimestamp>2024-03-26.19:17:39</ModifiedTimestamp>
       <OnDelete>restrict</OnDelete>
       <RefKeyName>SYS_C00574421</RefKeyName>
       <RefTableName>COURSE</RefTableName>
     </foreign-key>
-    <index id="8701" parent="8426" name="STUDENTCOURSE_PK">
+    <index id="8704" parent="8429" name="STUDENTCOURSE_PK">
       <ColNames>STUDENT_LOGIN
 COURSE_CODE
 YEAR</ColNames>
@@ -65405,33 +65436,33 @@ YEAR</ColNames>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="8702" parent="8426" name="STUDENTCOURSE_PK">
+    <key id="8705" parent="8429" name="STUDENTCOURSE_PK">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2024-03-26.19:17:39</ModifiedTimestamp>
       <Primary>1</Primary>
       <UnderlyingIndexName>STUDENTCOURSE_PK</UnderlyingIndexName>
     </key>
-    <column id="8703" parent="8427" name="LOGIN">
+    <column id="8706" parent="8430" name="LOGIN">
       <DasType>CHAR(6 byte)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="8704" parent="8427" name="FNAME">
+    <column id="8707" parent="8430" name="FNAME">
       <DasType>VARCHAR2(30 byte)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="8705" parent="8427" name="LNAME">
+    <column id="8708" parent="8430" name="LNAME">
       <DasType>VARCHAR2(50 byte)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="8706" parent="8427" name="DEPARTMENT">
+    <column id="8709" parent="8430" name="DEPARTMENT">
       <DasType>VARCHAR2(50 byte)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <index id="8707" parent="8427" name="TEACHER_PK">
+    <index id="8710" parent="8430" name="TEACHER_PK">
       <ColNames>LOGIN</ColNames>
       <CreatedTimestamp>2024-03-26.19:17:38</CreatedTimestamp>
       <ModifiedTimestamp>2024-03-26.19:17:38</ModifiedTimestamp>
@@ -65439,45 +65470,45 @@ YEAR</ColNames>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="8708" parent="8427" name="TEACHER_PK">
+    <key id="8711" parent="8430" name="TEACHER_PK">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2024-03-26.19:17:38</ModifiedTimestamp>
       <Primary>1</Primary>
       <UnderlyingIndexName>TEACHER_PK</UnderlyingIndexName>
     </key>
-    <column id="8709" parent="8428" name="ID_TYP_FUNKCE">
+    <column id="8712" parent="8431" name="ID_TYP_FUNKCE">
       <DasType>NUMBER(*)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="8710" parent="8428" name="ID_TYP_ORG">
+    <column id="8713" parent="8431" name="ID_TYP_ORG">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="8711" parent="8428" name="TYP_FUNKCE_CZ">
+    <column id="8714" parent="8431" name="TYP_FUNKCE_CZ">
       <DasType>VARCHAR2(100 byte)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="8712" parent="8428" name="TYP_FUNKCE_EN">
+    <column id="8715" parent="8431" name="TYP_FUNKCE_EN">
       <DasType>VARCHAR2(100 byte)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="8713" parent="8428" name="PRIORITA">
+    <column id="8716" parent="8431" name="PRIORITA">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="8714" parent="8428" name="TYP_FUNKCE_OBECNY">
+    <column id="8717" parent="8431" name="TYP_FUNKCE_OBECNY">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>6</Position>
     </column>
-    <foreign-key id="8715" parent="8428" name="TYP_FUNKCE_IBFK_1">
+    <foreign-key id="8718" parent="8431" name="TYP_FUNKCE_IBFK_1">
       <ColNames>ID_TYP_ORG</ColNames>
       <ModifiedTimestamp>2024-03-28.12:31:24</ModifiedTimestamp>
       <OnDelete>restrict</OnDelete>
       <RefKeyName>TYP_ORGANU_PK</RefKeyName>
       <RefTableName>TYP_ORGANU</RefTableName>
     </foreign-key>
-    <index id="8716" parent="8428" name="SYS_C00581643">
+    <index id="8719" parent="8431" name="SYS_C00581643">
       <ColNames>ID_TYP_FUNKCE</ColNames>
       <CreatedTimestamp>2024-03-28.12:31:24</CreatedTimestamp>
       <ModifiedTimestamp>2024-03-28.12:31:24</ModifiedTimestamp>
@@ -65486,46 +65517,46 @@ YEAR</ColNames>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="8717" parent="8428" name="SYS_C00581643">
+    <key id="8720" parent="8431" name="SYS_C00581643">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2024-03-28.12:31:24</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>SYS_C00581643</UnderlyingIndexName>
     </key>
-    <column id="8718" parent="8429" name="ID_TYP_ORG">
+    <column id="8721" parent="8432" name="ID_TYP_ORG">
       <DasType>NUMBER(*)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="8719" parent="8429" name="RODIC_ID_TYP_ORG">
+    <column id="8722" parent="8432" name="RODIC_ID_TYP_ORG">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="8720" parent="8429" name="NAZEV_TYP_ORG_CZ">
+    <column id="8723" parent="8432" name="NAZEV_TYP_ORG_CZ">
       <DasType>VARCHAR2(255 byte)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="8721" parent="8429" name="NAZEV_TYP_ORG_EN">
+    <column id="8724" parent="8432" name="NAZEV_TYP_ORG_EN">
       <DasType>VARCHAR2(255 byte)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="8722" parent="8429" name="TYP_ORG_OBECNY">
+    <column id="8725" parent="8432" name="TYP_ORG_OBECNY">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="8723" parent="8429" name="PRIORITA">
+    <column id="8726" parent="8432" name="PRIORITA">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>6</Position>
     </column>
-    <foreign-key id="8724" parent="8429" name="TYP_ORGANU_FK_RODIC_ID_TYP_ORG">
+    <foreign-key id="8727" parent="8432" name="TYP_ORGANU_FK_RODIC_ID_TYP_ORG">
       <ColNames>RODIC_ID_TYP_ORG</ColNames>
       <ModifiedTimestamp>2024-03-28.11:52:35</ModifiedTimestamp>
       <OnDelete>restrict</OnDelete>
       <RefKeyName>TYP_ORGANU_PK</RefKeyName>
       <RefTableName>TYP_ORGANU</RefTableName>
     </foreign-key>
-    <index id="8725" parent="8429" name="TYP_ORGANU_PK">
+    <index id="8728" parent="8432" name="TYP_ORGANU_PK">
       <ColNames>ID_TYP_ORG</ColNames>
       <CreatedTimestamp>2024-03-28.11:52:34</CreatedTimestamp>
       <ModifiedTimestamp>2024-03-28.11:52:34</ModifiedTimestamp>
@@ -65533,78 +65564,78 @@ YEAR</ColNames>
       <Unique>1</Unique>
       <TablespaceName>USERS</TablespaceName>
     </index>
-    <key id="8726" parent="8429" name="TYP_ORGANU_PK">
+    <key id="8729" parent="8432" name="TYP_ORGANU_PK">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2024-03-28.11:52:34</ModifiedTimestamp>
       <Primary>1</Primary>
       <UnderlyingIndexName>TYP_ORGANU_PK</UnderlyingIndexName>
     </key>
-    <column id="8727" parent="8430" name="ID_OSOBA">
+    <column id="8730" parent="8433" name="ID_OSOBA">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>1</Position>
     </column>
-    <column id="8728" parent="8430" name="ID_OF">
+    <column id="8731" parent="8433" name="ID_OF">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="8729" parent="8430" name="CL_FUNKCE">
+    <column id="8732" parent="8433" name="CL_FUNKCE">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="8730" parent="8430" name="OD_O">
+    <column id="8733" parent="8433" name="OD_O">
       <DasType>DATE|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="8731" parent="8430" name="DO_O">
+    <column id="8734" parent="8433" name="DO_O">
       <DasType>DATE|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="8732" parent="8430" name="OD_F">
+    <column id="8735" parent="8433" name="OD_F">
       <DasType>DATE|0s</DasType>
       <Position>6</Position>
     </column>
-    <column id="8733" parent="8430" name="DO_F">
+    <column id="8736" parent="8433" name="DO_F">
       <DasType>DATE|0s</DasType>
       <Position>7</Position>
     </column>
-    <foreign-key id="8734" parent="8430" name="ZARAZENI_FK_ID_OSOBA">
+    <foreign-key id="8737" parent="8433" name="ZARAZENI_FK_ID_OSOBA">
       <ColNames>ID_OSOBA</ColNames>
       <ModifiedTimestamp>2024-03-28.11:59:58</ModifiedTimestamp>
       <OnDelete>restrict</OnDelete>
       <RefKeyName>OSOBA_PK</RefKeyName>
       <RefTableName>OSOBA</RefTableName>
     </foreign-key>
-    <column id="8735" parent="8431" name="ID_HLASOVANI">
+    <column id="8738" parent="8434" name="ID_HLASOVANI">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>1</Position>
     </column>
-    <foreign-key id="8736" parent="8431" name="ZMATECNE_IBFK_1">
+    <foreign-key id="8739" parent="8434" name="ZMATECNE_IBFK_1">
       <ColNames>ID_HLASOVANI</ColNames>
       <ModifiedTimestamp>2024-03-28.12:31:25</ModifiedTimestamp>
       <OnDelete>restrict</OnDelete>
       <RefKeyName>SYS_C00580623</RefKeyName>
       <RefTableName>HLASOVANI</RefTableName>
     </foreign-key>
-    <column id="8737" parent="8432" name="ID_HLASOVANI">
+    <column id="8740" parent="8435" name="ID_HLASOVANI">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>1</Position>
     </column>
-    <column id="8738" parent="8432" name="ID_OSOBA">
+    <column id="8741" parent="8435" name="ID_OSOBA">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="8739" parent="8432" name="MODE_">
+    <column id="8742" parent="8435" name="MODE_">
       <DasType>NUMBER(*)|0s</DasType>
       <Position>3</Position>
     </column>
-    <foreign-key id="8740" parent="8432" name="ZMATECNE_HLASOVANI_POSLANEC_IBFK_1">
+    <foreign-key id="8743" parent="8435" name="ZMATECNE_HLASOVANI_POSLANEC_IBFK_1">
       <ColNames>ID_HLASOVANI</ColNames>
       <ModifiedTimestamp>2024-03-28.12:31:25</ModifiedTimestamp>
       <OnDelete>restrict</OnDelete>
       <RefKeyName>SYS_C00580623</RefKeyName>
       <RefTableName>HLASOVANI</RefTableName>
     </foreign-key>
-    <foreign-key id="8741" parent="8432" name="ZMATECNE_HLASOVANI_POSLANEC_IBFK_2">
+    <foreign-key id="8744" parent="8435" name="ZMATECNE_HLASOVANI_POSLANEC_IBFK_2">
       <ColNames>ID_OSOBA</ColNames>
       <ModifiedTimestamp>2024-03-28.12:31:25</ModifiedTimestamp>
       <OnDelete>restrict</OnDelete>
